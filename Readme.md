@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Макс Доронин](https://up.htmlacademy.ru/htmlcss-individual/1/user/2389503).
-* Наставник: [Александр Румянцев] (https://htmlacademy.ru/profile/id1521451).
+* Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
 
 ---
 
