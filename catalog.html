@@ -8,10 +8,21 @@
   <body>
   <!--Шапка-->
   <header class="page-header">
-
     <!--Главная навигация по сайту-->
     <nav class="navigation">
-
+      <a class="page-logo" href="index.html"><img src="#" alt="Описание картинки"></a>
+      <!--Список навигации-->
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="index.html">Главная</a></li>
+        <li class="navigation-item"><a href="#">О седоне</a></li><!--Для ссылок, адрес которых неизвестен, использую атрибут href="#".-->
+        <li class="navigation-item navigation-item-current"><a>Гостиницы</a></li><!--Указываю текущую вкладку классом navigation-item-current, атрибут href не указываю, так как сcылка ведет на саму себя-->
+      </ul>
+      <!--Элементы пользовательского меню-->
+      <ul class="user-menu">
+        <li class="user-menu-item"><a class="search-icon" href="#">Поиск</a></li>
+        <li class="user-menu-item"><a class="favorite-icon" href="#">Избранное</a><span class="number-favorites">12</span></li><!--над иконкой favorite-icon отображается цифра 12(количество гостиниц в избранном)-->
+        <li class="user-menu-item"><a class="button" href="#">Хочу сюда!</a></li>
+      </ul>
     </nav>
   </header>
 
