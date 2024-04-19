@@ -42,7 +42,7 @@
   <!--Основное содержимое страницы-->
   <main class="main-catalog"><!--Так как это основной блок страницы каталога, то логичнее всего повесить на него класс-->
     <!--Шапка с заголовком первого уровня и хлебными крошками-->
-    <header class="catalog-header">
+    <header class="main-catalog-header">
       <h1 class="catalog-header-title">Гостиницы Седоны</h1>
       <!--Блок с хлебными крошками-->
       <ul class="breadcrumbs">
@@ -56,7 +56,7 @@
         </li>
       </ul>
     </header>
-
+    <!--Секция с фильтрами-->
     <section class="catalog-hotels">
       <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -130,9 +130,129 @@
         <button class="button" type="reset">Сбросить</button>
       </form>
     </section>
+    <!--Секция каталога-->
     <section class="catalog">
-      <h2 class="visually-hidden">Каталог гостиниц</h2>
-      <!--Секция каталога-->
+      <header class="catalog-header">
+        <h2 class="visually-hidden">Каталог гостиниц</h2>
+        <p><b>Найдено гостиниц:<span class="number-hotels">38</span></b></p>
+        <select class="select-control" aria-label="Сортировка">
+          <option value="cheap">Сначала дешёвые</option>
+        </select>
+        <ul class="card-view-buttons">
+          <li class="card-view-item">
+            <button class="card-view-button-grid active" type="button">Карточками</button>
+          </li>
+          <li class="card-view-item">
+            <button class="card-view-button-full" type="button">Карточкой</button>
+          </li>
+          <li class="card-view-item">
+            <button class="card-view-button-list" type="button">Списком</button>
+          </li>
+        </ul>
+      </header>
+      <ul class="cards-list">
+        <li class="card-item">
+          <img class="card-image" src="#" alt="Описание картинки">
+          <h3 class="card-title">Amara Resort & Spa</h3>
+          <p class="card-price">
+            <span class="card-price-name">Гостиница</span>
+            <span class="card-price-value">От 4000 ₽</span>
+          </p>
+          <ul class="card-buttons-list">
+            <li class="card-buttons-item">
+              <a class="card-buttons-link" href="#">Подробнее</a>
+            </li>
+            <li class="card-buttons-item">
+              <button class="card-buttons-btn" type="button">В избранное</button>
+            </li>
+          </ul>
+          <div class="card-rank">
+            <img class="card-rank-image" src="#" alt="Описание картинки">
+            <span class="card-rank-text">Рейтинг: 8,5</span>
+          </div>
+        </li>
+        <li class="card-item">
+          <img class="card-image" src="#" alt="Описание картинки">
+          <h3 class="card-title">Amara Resort & Spa</h3>
+          <p class="card-price">
+            <span class="card-price-name">Гостиница</span>
+            <span class="card-price-value">От 4000 ₽</span>
+          </p>
+          <ul class="card-buttons-list">
+            <li class="card-buttons-item">
+              <a class="card-buttons-link" href="#">Подробнее</a>
+            </li>
+            <li class="card-buttons-item">
+              <button class="card-buttons-btn" type="button">В избранное</button>
+            </li>
+          </ul>
+          <div class="card-rank">
+            <img class="card-rank-image" src="#" alt="Описание картинки">
+            <span class="card-rank-text">Рейтинг: 9,2</span>
+          </div>
+        </li>
+        <li class="card-item">
+          <img class="card-image" src="#" alt="Описание картинки">
+          <h3 class="card-title">Desert Quail Inn</h3>
+          <p class="card-price">
+            <span class="card-price-name">Гостиница</span>
+            <span class="card-price-value">От 2500 ₽</span>
+          </p>
+          <ul class="card-buttons-list">
+            <li class="card-buttons-item">
+              <a class="card-buttons-link" href="#">Подробнее</a>
+            </li>
+            <li class="card-buttons-item">
+              <button class="card-buttons-btn favorite" type="button">В избранном</button>
+            </li>
+          </ul>
+          <div class="card-rank">
+            <img class="card-rank-image" src="#" alt="Описание картинки">
+            <span class="card-rank-text">Рейтинг: 6,9</span>
+          </div>
+        </li>
+        <li class="card-item">
+          <img class="card-image" src="#" alt="Описание картинки">
+          <h3 class="card-title">GreenTree Inn</h3>
+          <p class="card-price">
+            <span class="card-price-name">Гостиница</span>
+            <span class="card-price-value">От 1500 ₽</span>
+          </p>
+          <ul class="card-buttons-list">
+            <li class="card-buttons-item">
+              <a class="card-buttons-link" href="#">Подробнее</a>
+            </li>
+            <li class="card-buttons-item">
+              <button class="card-buttons-btn" type="button">В избранное</button>
+            </li>
+          </ul>
+          <div class="card-rank">
+            <img class="card-rank-image" src="#" alt="Описание картинки">
+            <span class="card-rank-text">Рейтинг: 5,0</span>
+          </div>
+        </li>
+      </ul>
+      <div class="divider"></div>
+      <ul class="pagination">
+        <li class="pagination-item">
+          <a class="pagination-link pagination-current">1</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">2</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">3</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">4</a>
+        </li>
+        <li class="pagination-item">
+          <span>...</span>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">10</a>
+        </li>
+      </ul>
     </section>
 
     <section class="subscribe">
