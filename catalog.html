@@ -14,25 +14,26 @@
       <!--Список навигации-->
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a href="index.html">Главная</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
-          <a href="#">О седоне</a><!--Для ссылок, адрес которых неизвестен, использую атрибут href="#".-->
+          <a class="navigation-link" href="#">О седоне</a><!--Для ссылок, адрес которых неизвестен, использую атрибут href="#".-->
         </li>
         <li class="navigation-item navigation-item-current"><!--Указываю текущую вкладку классом navigation-item-current, атрибут href не указываю, так как сcылка ведет на саму себя-->
-          <a>Гостиницы</a>
+          <a class="navigation-link">Гостиницы</a>
         </li>
       </ul>
       <!--Элементы пользовательского меню-->
       <ul class="user-menu">
         <li class="user-menu-item">
-          <a class="user-menu-link search-icon" href="#">Поиск</a>
+          <a class="user-menu-link search-icon" href="#">
+            <span class="visually-hidden">Поиск</span></a>
         </li>
         <li class="user-menu-item">
-          <a class="user-menu-link favorite-icon" href="#">Избранное</a><span class="number-favorites">12</span><!--над иконкой favorite-icon отображается цифра 12(количество гостиниц в избранном)-->
+          <a class="user-menu-link favorite-icon" href="#"><span class="visually-hidden">Избранное</span><span class="number-favorites">12</span></a><!--над иконкой favorite-icon отображается цифра 12(количество гостиниц в избранном)-->
         </li>
         <li class="user-menu-item">
-          <a class="button" href="#">Хочу сюда!</a>
+          <a class="navigation-link" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -40,11 +41,95 @@
 
   <!--Основное содержимое страницы-->
   <main class="main-catalog"><!--Так как это основной блок страницы каталога, то логичнее всего повесить на него класс-->
-    <section class="filter">
-      <h1>Гостиницы Седоны</h1>
-      <!--Секция формы с фильтром-->
-    </section>
+    <!--Шапка с заголовком первого уровня и хлебными крошками-->
+    <header class="catalog-header">
+      <h1 class="catalog-header-title">Гостиницы Седоны</h1>
+      <!--Блок с хлебными крошками-->
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link home-icon" href="index.html">
+            <span class="visually-hidden">Главная</span>
+          </a>
+        </li>
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link">Гостиницы</a><!--Для ссылок, адрес которых неизвестен, использую атрибут href="#".-->
+        </li>
+      </ul>
+    </header>
 
+    <section class="catalog-hotels">
+      <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Инфраструктура:</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="checkbox" name="swimming-pool" checked>
+                Бассейн
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="checkbox" name="parking" checked>
+                Парковка
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="checkbox" name="wi-fi">
+                Wi-Fi
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Тип жилья:</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="radio" name="type-of-housing" value="hotel" checked>
+                Гостиница
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="radio" name="type-of-housing" value="motel">
+                Мотель
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="radio" name="type-of-housing" value="apartments">
+                Апартаменты
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+          <ul class="price-input-list">
+            <li class="price-input-item">
+              <label class="visually-hidden" for="min-number">Минимальная стоимость</label>
+              <input class="min-input" type="number" id="min-number" placeholder="от" min="0" max="8999" step="1">
+            </li>
+            <li class="price-input-item">
+              <label class="visually-hidden" for="max-number">Максимальная стоимость</label>
+              <input class="max-imput" type="number" id="max-number" placeholder="до" min="1" max="9000" step="1">
+            </li>
+          </ul>
+          <div class="slider-wrapper">
+            <div class="price-slider"></div>
+          </div>
+          <div class="range-input">
+            <input class="min-range" type="range" min="0" max="12000" value="0" step="1">
+            <input class="max-range" type="range" min="0" max="12000" value="9000" step="1">
+          </div>
+        </fieldset>
+        <button class="button" type="submit">Применить</button>
+        <button class="button" type="reset">Сбросить</button>
+      </form>
+    </section>
     <section class="catalog">
       <h2 class="visually-hidden">Каталог гостиниц</h2>
       <!--Секция каталога-->
