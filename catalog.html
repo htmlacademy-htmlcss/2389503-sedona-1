@@ -17,10 +17,10 @@
           <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">О седоне</a><!--Для ссылок, адрес которых неизвестен, использую атрибут href="#".-->
+          <a class="navigation-link" href="#">О седоне</a>
         </li>
-        <li class="navigation-item navigation-item-current"><!--Указываю текущую вкладку классом navigation-item-current, атрибут href не указываю, так как сcылка ведет на саму себя-->
-          <a class="navigation-link">Гостиницы</a>
+        <li class="navigation-item navigation-item-current">
+          <a class="navigation-link" title="Текущая страница">Гостиницы</a>
         </li>
       </ul>
       <!--Элементы пользовательского меню-->
@@ -30,7 +30,7 @@
             <span class="visually-hidden">Поиск</span></a>
         </li>
         <li class="user-menu-item">
-          <a class="user-menu-link favorite-icon" href="#"><span class="visually-hidden">Избранное</span><span class="number-favorites">12</span></a><!--над иконкой favorite-icon отображается цифра 12(количество гостиниц в избранном)-->
+          <a class="user-menu-link favorite-icon" href="#"><span class="visually-hidden">Избранное</span><span class="number-favorites">12</span></a>
         </li>
         <li class="user-menu-item">
           <a class="navigation-link" href="#">Хочу сюда!</a>
@@ -40,11 +40,10 @@
   </header>
 
   <!--Основное содержимое страницы-->
-  <main class="main-catalog"><!--Так как это основной блок страницы каталога, то логичнее всего повесить на него класс-->
+  <main class="main-catalog">
     <!--Шапка с заголовком первого уровня и хлебными крошками-->
     <header class="main-catalog-header">
       <h1 class="catalog-header-title">Гостиницы Седоны</h1>
-      <!--Блок с хлебными крошками-->
       <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link home-icon" href="index.html">
@@ -52,7 +51,7 @@
           </a>
         </li>
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link">Гостиницы</a><!--Для ссылок, адрес которых неизвестен, использую атрибут href="#".-->
+          <a class="breadcrumbs-link" title="Текущая страница">Гостиницы</a>
         </li>
       </ul>
     </header>
@@ -235,7 +234,7 @@
       <div class="divider"></div>
       <ul class="pagination">
         <li class="pagination-item">
-          <a class="pagination-link pagination-current">1</a>
+          <a class="pagination-link pagination-current" title="Начальная страница">1</a>
         </li>
         <li class="pagination-item">
           <a class="pagination-link" href="#">2</a>
@@ -268,7 +267,7 @@
 
   <!--Подвал сайта-->
   <footer class="page-footer">
-    <!--Секция с соц. сетями(количество иконок может увеличиться)-->
+    <!--Секция с соц. сетями-->
     <section class="footer-social">
       <h2 class="visually-hidden">Мы в соцсетях</h2>
       <ul class="footer-social-list">
@@ -283,7 +282,7 @@
         </li>
       </ul>
     </section>
-    <!--Секция с контактной информацией и логотипом(информация о контактах может добавиться)-->
+    <!--Секция с контактной информацией и логотипом-->
     <section class="footer-contacts">
       <h2 class="visually-hidden">Контакты</h2>
       <address>

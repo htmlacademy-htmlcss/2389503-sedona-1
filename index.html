@@ -14,11 +14,11 @@
         <!--Список навигации-->
         <ul class="navigation-list">
           <li class="navigation-item navigation-item-current">
-            <a class="navigation-link">Главная</a>
-          </li><!--Указываю текущую вкладку классом navigation-item-current, атрибут href не указываю, так как сcылка ведет на саму себя-->
+            <a class="navigation-link" title="Текущая страница">Главная</a>
+          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О седоне</a>
-          </li><!--Для ссылок, адрес которых неизвестен, использую атрибут href="#".-->
+          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
@@ -30,7 +30,7 @@
               <span class="visually-hidden">Поиск</span></a>
           </li>
           <li class="user-menu-item">
-            <a class="user-menu-link favorite-icon" href="#"><span class="visually-hidden">Избранное</span><span class="number-favorites">12</span></a><!--над иконкой favorite-icon отображается цифра 12(количество гостиниц в избранном)-->
+            <a class="user-menu-link favorite-icon" href="#"><span class="visually-hidden">Избранное</span><span class="number-favorites">12</span></a>
           </li>
           <li class="user-menu-item">
             <a class="navigation-link" href="#">Хочу сюда!</a>
@@ -40,7 +40,6 @@
     </header>
 
     <!--Основное содержимое страницы-->
-    <!--Так как это основной блок главной страницы, то логичнее всего повесить на него класс-->
     <main class="main-index">
       <!--Баннер/Hero-секция-->
       <section class="hero">
@@ -49,8 +48,8 @@
         <div class="image-wrapper"></div>
         <!--Декоративный элемент-->
         <div class="divider"></div>
-        <div class="text-wrapper"><!--Использую <div class="text-wrapper"> в качестве обёртки для стилизации и группировки текстовых элементов-->
-          <p><b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b></p><!--Оборачиваю текст в тег <b> с целью привлечения к нему внимания-->
+        <div class="text-wrapper">
+          <p><b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b></p>
           <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
       </section>
@@ -79,8 +78,8 @@
             <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
         </ul>
-        <div class="text-wrapper"><!--Использую <div class="text-wrapper"> в качестве обёртки для стилизации и группировки-->
-          <p><b>Приезжайте в Седону отдохнуть в комфорте и уюте!</b></p><!--Оборачиваю текст в тег <b> с целью привлечения к нему внимания-->
+        <div class="text-wrapper">
+          <p><b>Приезжайте в Седону отдохнуть в комфорте и уюте!</b></p>
           <p>Опытный персонал и качественное обслуживание!</p>
         </div>
         <ul class="features-list">
@@ -104,7 +103,7 @@
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <p>Поиск гостиницы в Седоне</p>
       </section>
-      <!--Секция с подпиской на рассылку-->
+      <!--Секция подписки на рассылку-->
       <section class="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -118,7 +117,7 @@
 
     <!--Подвал-->
     <footer class="page-footer">
-      <!--Секция с соц. сетями(количество иконок может увеличиться)-->
+      <!--Секция с соц. сетями-->
       <section class="footer-social">
         <h2 class="visually-hidden">Мы в соцсетях</h2>
         <ul class="footer-social-list">
@@ -133,7 +132,7 @@
           </li>
         </ul>
       </section>
-      <!--Секция с контактной информацией и логотипом(информация о контактах может добавиться)-->
+      <!--Секция с контактной информацией и логотипом-->
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <address>
