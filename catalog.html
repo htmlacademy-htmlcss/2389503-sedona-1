@@ -8,10 +8,10 @@
   <body>
     <!--Шапка-->
     <header class="page-header">
-      <!--Главная навигация по сайту-->
+      <!--Основная навигация по сайту-->
       <nav class="navigation">
-        <a class="page-logo" href="index.html">
-          <img src="#" alt="Описание картинки">
+        <a class="navigation-logo" href="index.html">
+          <img class="page-header-logo" src="#" alt="Описание картинки">
         </a>
         <!--Список навигации-->
         <ul class="navigation-list">
@@ -21,24 +21,25 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">О седоне</a>
           </li>
-          <li class="navigation-item navigation-item-current">
-            <a class="navigation-link" title="Текущая страница">Гостиницы</a>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-current" title="Текущая страница">Гостиницы</a>
           </li>
         </ul>
         <!--Элементы пользовательского меню-->
-        <ul class="user-menu">
-          <li class="user-menu-item">
-            <a class="user-menu-link search-icon" href="#">
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link search-icon" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="user-menu-item">
-            <a class="user-menu-link favorite-icon" href="#">
-              <span class="visually-hidden">Избранное</span><span class="number-favorites">12</span>
+          <li class="navigation-item">
+            <a class="navigation-link favorite-icon" href="#">
+              <span class="visually-hidden">Избранное</span>
+              <span class="number-favorites">12</span>
             </a>
           </li>
-          <li class="user-menu-item">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+          <li class="navigation-item">
+            <a class="navigation-link button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
