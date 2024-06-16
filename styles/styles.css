@@ -26,3 +26,8 @@ body {
   background-color: #ffffff;
   color:#000000;
 }
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+}
