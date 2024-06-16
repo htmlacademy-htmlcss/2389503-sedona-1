@@ -20,5 +20,9 @@ body {
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
+}
 
+.page-header {
+  background-color: #ffffff;
+  color:#000000;
 }
