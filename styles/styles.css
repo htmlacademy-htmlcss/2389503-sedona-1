@@ -58,8 +58,14 @@ body {
 }
 
 .hero {
+  text-align: center;
   color:#000000;
   background-color: #82B3D3;
   background-image: url("../images/hero-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.divider {
+  background-image: url("../images/white-insertion.svg");
   background-repeat: no-repeat;
 }
