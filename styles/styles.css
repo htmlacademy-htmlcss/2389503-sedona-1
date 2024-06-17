@@ -58,7 +58,6 @@ body {
 }
 
 .hero {
-  text-align: center;
   color:#000000;
   background-color: #82B3D3;
   background-image: url("../images/hero-background.jpg");
@@ -68,4 +67,60 @@ body {
 .divider {
   background-image: url("../images/white-insertion.svg");
   background-repeat: no-repeat;
+}
+
+.lead {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.lead + p {
+  color: #333333;
+  text-align: center;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-item p {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.advantages-item:first-child,
+.advantages-item:last-child {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-item:nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(even) p {
+  color: #333333;
+}
+
+.advantages-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item:nth-child(3) p {
+  color: #333333;
+}
+
+.advantages-item-heading {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-contacts-address {
+  font-style: normal;
 }
