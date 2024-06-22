@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
@@ -49,14 +49,17 @@ body {
 
 .hero {
   color:#000000;
-  background-color: #82B3D3;
+  background-color: #ffffff;
   background-image: url("../images/hero-background.jpg");
   background-repeat: no-repeat;
+  background-size: 1200px 485px;
 }
 
 .divider {
+  background-color: #ffffff;
   background-image: url("../images/white-insertion.svg");
   background-repeat: no-repeat;
+  background-size: 1200px 57px;
 }
 
 .lead {
@@ -169,6 +172,7 @@ body {
 .subscribe {
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
+  background-size: 1200px 415px;
   background-color:#82B3D3;
   color: #ffffff;
   text-align: center;
@@ -189,22 +193,10 @@ body {
   line-height: 36px;
 }
 
-.footer-contacts-address {
-  font-style: normal;
-
-}
-
-.footer-contacts-address-phone {
-  font-size: 40px;
-  line-height: 40px;
-  font-weight: 400;
-  color: #000000;
-  text-decoration: none;
-}
-
 .container {
   background-image: url("../images/filter-background.jpg");
   background-repeat: no-repeat;
+  background-size: 1200px 412px;
   background-color:#82B3D3;
   color: #ffffff;
 }
@@ -276,6 +268,20 @@ body {
   color: #333333;
 }
 
+.hotel-card-stars {
+  background-image: url("../images/stars-4.svg");
+  background-repeat: no-repeat;
+  background-size: 140px 37px;
+}
+
+.hotel-card-item:nth-child(3) .hotel-card-stars {
+  background-image: url("../images/stars-3.svg");
+}
+
+.hotel-card-item:nth-child(4) .hotel-card-stars {
+  background-image: url("../images/stars-2.svg");
+}
+
 .hotel-card-rank {
   font-size: 16px;
   line-height: 20px;
@@ -308,6 +314,20 @@ body {
   text-align: center;
 }
 
+.footer-contacts-address {
+  font-style: normal;
+
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .btn {
   font-family: inherit;
   font-size: 16px;
@@ -320,6 +340,7 @@ body {
   text-decoration: none;
   border: none;
   padding: 0;
+  cursor: pointer;
 }
 
 .btn-blue {
