@@ -14,7 +14,14 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 22px;
   line-height: 26px;
@@ -25,6 +32,23 @@ body {
 .page-header {
   background-color: #ffffff;
   color:#000000;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 460px;
+}
+
+.navigation-user {
+  max-width: 310px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -47,12 +71,26 @@ body {
   text-align: center;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .hero {
   color:#000000;
   background-color: #82b3d3;
   background-image: url("../images/hero-background.jpg");
   background-repeat: no-repeat;
   background-size: 1200px 485px;
+}
+
+.hero-logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .divider {
