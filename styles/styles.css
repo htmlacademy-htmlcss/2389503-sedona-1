@@ -40,6 +40,11 @@ body {
   margin: 0 auto;
 }
 
+.page-header-logo {
+  display: block;
+  width: 140px;
+}
+
 .navigation-list {
   margin: 0;
   padding: 0;
@@ -258,6 +263,26 @@ body {
   color: #ffffff;
 }
 
+.catalog-header {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.filter {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.form-filter {
+  display: flex;
+}
+
+.sort-container {
+  width: 1060px;
+  margin: 0 70px;
+  display: flex;
+}
+
 .catalog-header-title {
   font-size: 60px;
   line-height: 78px;
@@ -294,6 +319,8 @@ body {
 }
 
 .found {
+  width: 338px;
+  margin-right: 200px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -301,10 +328,30 @@ body {
 }
 
 .select-control {
+  width: 292px;
+  margin-right: 70px;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+}
+
+.cards-view-list {
+  width: 160px;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-card-list {
+  width: 1060px;
+  margin: 0 70px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotel-card-item {
+  width: 340px;
 }
 
 .hotel-card-link {
@@ -403,7 +450,7 @@ body {
 
 .htmlacademy-logo {
   display: block;
-  margin: 0 auto;
+  width: 115px;
 }
 
 .btn {
