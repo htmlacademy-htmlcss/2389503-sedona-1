@@ -50,6 +50,8 @@ body {
   margin: 0;
   padding: 0;
   width: 460px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation-user {
@@ -58,6 +60,8 @@ body {
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 16px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
