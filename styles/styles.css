@@ -59,14 +59,29 @@ body {
   margin: 0;
   margin-right: auto;
   padding: 0;
+  list-style-type: none;
   width: 460px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .navigation-user {
   max-width: 312px;
   margin-right: 0;
+  justify-content: flex-end;
+}
+
+.navigation-user .navigation-link {
+  min-width: 20px;
+  min-height: 20px;
+  padding: 22px 12px;
+}
+
+.navigation-user .navigation-link.btn {
+  padding: 8px 34px;
+  margin-left: 20px;
+  border-radius: 4px;
 }
 
 .navigation-link {
