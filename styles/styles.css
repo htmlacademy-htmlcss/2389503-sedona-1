@@ -570,6 +570,7 @@ body {
 .hotel-card-list {
   width: 1060px;
   margin: 0 auto;
+  margin-bottom: 80px;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -578,6 +579,11 @@ body {
 
 .hotel-card-item {
   width: 340px;
+  margin-bottom: 20px;
+}
+
+.hotel-card-item:not(:nth-child(3n)) {
+  margin-right: 20px;
 }
 
 .hotel-card-link {
