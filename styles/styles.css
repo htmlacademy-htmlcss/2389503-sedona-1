@@ -404,6 +404,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .subscribe-text-container p {
@@ -511,6 +512,7 @@ body {
 /*Секция каталога*/
 .catalog {
   padding-top: 50px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
 
@@ -675,15 +677,14 @@ body {
   background-color: #f2f2f2;
 }
 
+/*Секция подписки на рассылку catalog*/
 .subscribe-catalog {
-  text-align: center;
+  background-color:#ffffff;
+  background-image: none;
+  color: #000000;
 }
 
-.subscribe-text {
-  width: 475px;
-  margin: 0 auto;
-}
-
+/*Подвал сайта*/
 .page-footer {
   padding-top: 40px;
   padding-bottom: 30px;
