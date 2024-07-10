@@ -137,9 +137,21 @@ body {
   background-size: 1200px 57px;
 }
 
-.lead {
-  width: 620px;
+.advantages {
+ background-color: #ffffff;
+}
+
+.advantages-text-container {
+  width: 651px;
   margin: 0 auto;
+  margin-bottom: 21px;
+  padding-top: 69px;
+  padding-bottom: 69px;
+}
+
+.advantages-text-container  .lead {
+  margin: 0;
+  margin-bottom: 25px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -147,7 +159,9 @@ body {
   text-transform: uppercase;
 }
 
-.lead + p {
+.advantages-text-container p {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #333333;
   text-align: center;
 }
