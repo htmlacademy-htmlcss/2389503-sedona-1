@@ -405,7 +405,7 @@ body {
   line-height: 36px;
 }
 
-.container {
+.filter-container {
   padding-top: 35px;
   padding-bottom: 70px;
   background-image: url("../images/filter-background.jpg");
