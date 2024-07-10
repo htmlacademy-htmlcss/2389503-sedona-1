@@ -629,9 +629,26 @@ body {
 
 /*Пагинация*/
 .pagination {
-  margin: 0;
+  width: 1060px;
+  margin: 0 auto;
   padding: 0;
   list-style-type: none;
+  display: flex;
+}
+
+.pagination-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-item-ellipsis {
+  width: 60px;
+  height: 60px;
 }
 
 .pagination-item span{
@@ -639,6 +656,11 @@ body {
 }
 
 .pagination-link {
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 12px 23px;
+  border-radius: 4px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
