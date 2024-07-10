@@ -116,6 +116,8 @@ body {
 }
 
 .hero {
+  padding-top: 51px;
+  padding-bottom: 82px;
   color:#000000;
   background-color: #82b3d3;
   background-image: url("../images/hero-background.jpg");
