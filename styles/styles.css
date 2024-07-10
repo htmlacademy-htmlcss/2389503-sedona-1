@@ -371,6 +371,8 @@ body {
   text-decoration: none;
 }
 
+/* Секция подписки на рассылку */
+
 .subscribe {
   background-color:#82B3D3;
   background-image: url("../images/subscribe-background.jpg");
@@ -380,15 +382,24 @@ body {
   text-align: center;
 }
 
+.subscribe-text-container {
+  max-width: 684px;
+  margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
 .subscribe-heading {
+  margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
 }
 
-.subscribe-heading + p {
-  width: 475px;
-  margin: 0 auto;
+.subscribe-text-container p {
+  margin: 0;
+  margin-bottom: 54px;
   font-weight: 400;
 }
 
