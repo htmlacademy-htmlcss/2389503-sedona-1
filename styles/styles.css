@@ -551,6 +551,7 @@ body {
   color: #333333;
 }
 
+/*Кнопки раскладки списка карточек*/
 .cards-view-list {
   width: 160px;
   margin: 0;
@@ -559,9 +560,14 @@ body {
   display: flex;
 }
 
-.cards-view-item {
+.cards-view-button {
+  display: block;
   width: 48px;
   height: 48px;
+}
+
+.cards-view-button-dark {
+  background-color: #000000;
 }
 
 .cards-view-item:not(:last-child) {
