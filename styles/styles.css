@@ -518,6 +518,7 @@ body {
 .sort-container {
   width: 1060px;
   margin: 0 auto;
+  margin-bottom: 40px;
   display: flex;
   align-items: center;
 }
@@ -551,6 +552,17 @@ body {
   width: 160px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.cards-view-item {
+  width: 48px;
+  height: 48px;
+}
+
+.cards-view-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .hotel-card-list {
