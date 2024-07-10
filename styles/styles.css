@@ -415,9 +415,10 @@ body {
   color: #ffffff;
 }
 
-.catalog-header {
+.main-catalog-header {
   width: 1060px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .catalog-header-title {
@@ -426,6 +427,30 @@ body {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.breadcrumbs-item {
+  min-width: 13px;
+  min-height: 15px;
+}
+
+.breadcrumbs-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .filter {
@@ -445,20 +470,6 @@ body {
 
 .catalog {
   background-color: #ffffff;
-}
-
-.breadcrumbs {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.breadcrumbs-link {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 400;
 }
 
 .form-filter-title {
