@@ -137,6 +137,8 @@ body {
   background-size: 1200px 57px;
 }
 
+/*section advantages*/
+
 .advantages {
  background-color: #ffffff;
 }
@@ -239,9 +241,20 @@ body {
   font-weight: 400;
 }
 
+/*section features*/
+
+.features-text-container {
+  width: 505px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+
 .features-heading {
   width: 505px;
   margin: 0 auto;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -249,7 +262,8 @@ body {
   text-transform: uppercase;
 }
 
-.features-heading + p {
+.features-text-container p {
+  margin: 0;
   font-weight: 400;
   text-align: center;
   color: #333333;
