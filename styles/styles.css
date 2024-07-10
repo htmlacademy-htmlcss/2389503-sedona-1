@@ -28,6 +28,7 @@ body {
   background-color: #f2f2f2;
 }
 
+/*Стакан*/
 .page-container {
   width: 1200px;
   min-height: 100%;
@@ -61,11 +62,13 @@ body {
   cursor: pointer;
 }
 
+/*Шапка*/
 .page-header {
   background-color: #ffffff;
   color:#000000;
 }
 
+/*Основная навигация*/
 .navigation {
   display: flex;
   width: 1060px;
@@ -88,6 +91,7 @@ body {
   align-items: center;
 }
 
+/*Навигация пользователя*/
 .navigation-user {
   max-width: 312px;
   margin-right: 0;
@@ -128,10 +132,12 @@ body {
   text-align: center;
 }
 
+/*Основное содержимое страницы*/
 .main-container {
   flex-grow: 1;
 }
 
+/*Hero*/
 .hero {
   padding-top: 51px;
   padding-bottom: 82px;
@@ -142,6 +148,7 @@ body {
   background-size: 1200px 485px;
 }
 
+/*Логотип*/
 .hero-logo {
   display: block;
   margin: 0 auto;
@@ -425,7 +432,7 @@ body {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-/*Заголовок первого уровня*/
+/*Заголовок первого уровня catalog*/
 .catalog-header-title {
   margin: 0;
   margin-bottom: 8px;
@@ -533,6 +540,7 @@ body {
   margin-right: 70px;
   padding: 14px 20px;
   border: 2px solid #e5e5e5;
+  border-radius: 4px;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
