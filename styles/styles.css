@@ -580,8 +580,8 @@ body {
 }
 
 .hotel-card-item {
-  width: 340px;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 .hotel-card-item:not(:nth-child(3n)) {
