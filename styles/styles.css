@@ -418,6 +418,7 @@ body {
 }
 
 .subscribe .subscribe-button {
+  padding: 8px 50px;
   font-size: 20px;
   line-height: 36px;
 }
