@@ -412,6 +412,11 @@ body {
   font-weight: 400;
 }
 
+.subscribe-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
 .subscribe .subscribe-button {
   font-size: 20px;
   line-height: 36px;
