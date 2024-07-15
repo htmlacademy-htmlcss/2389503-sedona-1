@@ -65,6 +65,11 @@ body {
   color:#000000;
 }
 
+/*Логотип CityOfSedona(города Седона)*/
+.page-header-logo {
+  display: block;
+}
+
 /*Основная навигация*/
 .navigation {
   display: flex;
