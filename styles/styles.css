@@ -587,28 +587,21 @@ body {
   margin-bottom: 80px;
   padding: 0;
   list-style-type: none;
-  /*Grid*/
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 340px);
   gap: 20px;
-  /*Flexbox*/
-  /*
-  display: flex;
-  flex-wrap: wrap;
-  */
 }
 
+/*Карточка*/
 .hotel-card-item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, auto);
-  gap: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   padding: 20px;
 }
 
 .hotel-card-link {
   text-decoration: none;
-  grid-column: 1 / -1;
 }
 
 .hotel-card-image {
@@ -625,26 +618,54 @@ body {
 
 .hotel-card-price {
   margin: 0;
+  margin-top: auto;
   display: flex;
   justify-content: space-between;
-  grid-column: 1 / 3;
+  align-items: center;
+  gap: 20px;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
 }
 
+.hotel-card-price-name {
+  flex: 1 50%;
+}
+
+.hotel-card-price-value {
+  flex: 1 50%;
+  text-align: end;
+}
+
+.hotel-card-buttons {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .hotel-card-button-detail {
   padding-top: 8px;
   padding-bottom: 8px;
+  flex: 1 50%;
 }
 
 .hotel-card-button-favorites {
   padding-top: 8px;
   padding-bottom: 8px;
+  flex: 1 50%;
+}
+
+.hotel-card-ranking {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .hotel-card-stars {
+  flex: 1 50%;
   background-image: url("../images/stars-4.svg");
   background-repeat: no-repeat;
   background-size: 140px 37px;
@@ -659,6 +680,7 @@ body {
 }
 
 .hotel-card-rank {
+  flex: 1 50%;
   padding-top: 9px;
   padding-bottom: 8px;
   font-size: 16px;
