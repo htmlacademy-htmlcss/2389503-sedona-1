@@ -589,6 +589,7 @@ body {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 340px);
+  justify-content: center;
   gap: 20px;
 }
 
@@ -605,6 +606,8 @@ body {
 }
 
 .hotel-card-image {
+  max-width: 100%;
+  object-fit: contain;
   margin-bottom: 16px;
 }
 
