@@ -65,6 +65,11 @@ body {
   color:#000000;
 }
 
+/*Логотип CityOfSedona(города Седона)*/
+.page-header-logo {
+  display: block;
+}
+
 /*Основная навигация*/
 .navigation {
   display: flex;
@@ -412,7 +417,13 @@ body {
   font-weight: 400;
 }
 
+.subscribe-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
 .subscribe .subscribe-button {
+  padding: 8px 50px;
   font-size: 20px;
   line-height: 36px;
 }
@@ -581,24 +592,32 @@ body {
   margin-bottom: 80px;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  justify-content: center;
+  gap: 20px;
 }
 
+/*Карточка*/
 .hotel-card-item {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   padding: 20px;
-}
-
-.hotel-card-item:not(:nth-child(3n)) {
-  margin-right: 20px;
 }
 
 .hotel-card-link {
   text-decoration: none;
 }
 
+.hotel-card-image {
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
 .hotel-card-title {
+  margin: 0;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -606,13 +625,55 @@ body {
 }
 
 .hotel-card-price {
+  margin: 0;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
 }
 
+.hotel-card-price-name {
+  flex: 1 50%;
+}
+
+.hotel-card-price-value {
+  flex: 1 50%;
+  text-align: end;
+}
+
+.hotel-card-buttons {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hotel-card-button-detail {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex: 1 50%;
+}
+
+.hotel-card-button-favorites {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex: 1 50%;
+}
+
+.hotel-card-ranking {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .hotel-card-stars {
+  flex: 1 50%;
   background-image: url("../images/stars-4.svg");
   background-repeat: no-repeat;
   background-size: 140px 37px;
@@ -627,6 +688,9 @@ body {
 }
 
 .hotel-card-rank {
+  flex: 1 50%;
+  padding-top: 9px;
+  padding-bottom: 8px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
