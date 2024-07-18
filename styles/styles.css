@@ -116,7 +116,6 @@ body {
 .navigation-user {
   max-width: 312px;
   margin-right: 0;
-  justify-content: flex-end;
 }
 
 .navigation-user .navigation-link {
@@ -194,6 +193,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .advantages-text-container p {
