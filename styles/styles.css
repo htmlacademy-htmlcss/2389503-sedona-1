@@ -784,6 +784,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-social {
@@ -822,6 +823,10 @@ body {
 
 .htmlacademy-link {
   width: 115px;
+}
+
+.htmlacademy-logo {
+  display: block;
 }
 
 
