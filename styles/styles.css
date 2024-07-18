@@ -47,6 +47,7 @@ body {
   white-space: nowrap;
 }
 
+/*Кнопки*/
 .btn {
   display: inline-block;
   font-family: inherit;
@@ -60,6 +61,21 @@ body {
   text-decoration: none;
   border: none;
   cursor: pointer;
+}
+
+.btn-blue {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.btn-green {
+  color: #ffffff;
+  background-color: #7DB54F;
+}
+
+.btn-transparent {
+  color: #ffffff;
+  background-color: transparent;
 }
 
 /*Шапка*/
@@ -771,6 +787,10 @@ body {
   color: #000000;
 }
 
+.subscribe-catalog .subscribe-field {
+  background-color: #f2f2f2;
+}
+
 /*Подвал сайта*/
 .page-footer {
   padding-top: 45px;
@@ -827,21 +847,4 @@ body {
 
 .htmlacademy-logo {
   display: block;
-}
-
-
-
-.btn-blue {
-  color: #ffffff;
-  background-color: #82B3D3;
-}
-
-.btn-green {
-  color: #ffffff;
-  background-color: #7DB54F;
-}
-
-.btn-transparent {
-  color: #ffffff;
-  background-color: transparent;
 }
