@@ -644,6 +644,8 @@ body {
   flex-direction: column;
   gap: 16px;
   padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
 }
 
 .hotel-card-link {
