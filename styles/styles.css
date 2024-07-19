@@ -634,14 +634,35 @@ body {
   display: flex;
 }
 
-.cards-view-button {
-  display: block;
-  width: 48px;
-  height: 48px;
+.cards-view-list .cards-view-item:nth-child(1) .cards-view-button {
+  background-image: url("../images/view-cards-sprites.png");
+  background-repeat: no-repeat;
+  background-position: 110% 50%;
 }
 
-.cards-view-button-dark {
-  background-color: #000000;
+.cards-view-list .cards-view-item:nth-child(2) .cards-view-button {
+  background-image: url("../images/view-cards-sprites.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.cards-view-list .cards-view-item:nth-child(3) .cards-view-button {
+  background-image: url("../images/view-cards-sprites.png");
+  background-repeat: no-repeat;
+  background-position: 7px 50%;
+}
+
+.cards-view-button {
+  display: block;
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.cards-view-button-active {
+  border-color: #000000;
 }
 
 .cards-view-item:not(:last-child) {
