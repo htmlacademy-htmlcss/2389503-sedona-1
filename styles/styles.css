@@ -591,6 +591,7 @@ body {
 }
 
 .select-control {
+  box-sizing: border-box;
   width: 292px;
   margin-right: 70px;
   padding: 14px 20px;
