@@ -596,6 +596,7 @@ body {
   padding: 12px 18px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
+  font-family: inherit;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
