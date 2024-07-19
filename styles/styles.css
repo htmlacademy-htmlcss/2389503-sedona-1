@@ -697,9 +697,8 @@ body {
 }
 
 .hotel-card-button-detail {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  flex: 1 50%;
+  padding: 8px 26px;
+  border-radius: 4px;
 }
 
 .hotel-card-button-favorites {
