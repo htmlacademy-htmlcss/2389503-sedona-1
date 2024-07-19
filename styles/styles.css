@@ -701,10 +701,14 @@ body {
   border-radius: 4px;
 }
 
-.hotel-card-button-favorites {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  flex: 1 50%;
+.hotel-card-button-add-to-favorites {
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.hotel-card-button-in-favorites {
+  padding: 8px 18px;
+  border-radius: 4px;
 }
 
 .hotel-card-ranking {
