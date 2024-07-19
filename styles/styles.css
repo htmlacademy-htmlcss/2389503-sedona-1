@@ -653,6 +653,7 @@ body {
 }
 
 .hotel-card-image {
+  display: block;
   max-width: 100%;
   object-fit: contain;
   margin-bottom: 16px;
