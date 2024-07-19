@@ -140,6 +140,12 @@ body {
   background-position: center;
 }
 
+.navigation-user .navigation-item:nth-child(2) .navigation-link {
+  background-image: url("../images/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .navigation-user .navigation-link {
   display: block;
   min-width: 20px;
