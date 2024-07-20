@@ -377,6 +377,42 @@ body {
   color: #000000;
 }
 
+.features-item-accommodation .features-item-heading::before {
+  content: "";
+  width: 72px;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-image: url("../images/accommodation-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-item-food .features-item-heading::before {
+  content: "";
+  width: 72px;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-image: url("../images/food-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-item-souvenir .features-item-heading::before {
+  content: "";
+  width: 72px;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-image: url("../images/souvenir-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .features-item-text-container p {
   margin: 0;
   font-size: 18px;
