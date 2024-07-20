@@ -895,6 +895,15 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
+  fill: #83b3d3;
+}
+
+.footer-social-link:hover .footer-social-icon {
+  fill: #68A2CA;
+}
+
+.footer-social-link:focus .footer-social-icon {
+  fill: #68A2CA;
 }
 
 .footer-contacts {
