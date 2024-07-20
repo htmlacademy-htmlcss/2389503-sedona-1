@@ -880,6 +880,20 @@ body {
 .footer-social-item {
   width: 48px;
   height: 40px;
+  position: relative;
+}
+
+.footer-social-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*Если известны размеры*/
+  /*
+  margin-top: -9px;
+  margin-left: -12px;
+  */
+  /*если размеры не известны*/
+  transform: translate(-50%, -50%);
 }
 
 .footer-contacts {
