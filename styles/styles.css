@@ -517,22 +517,40 @@ body {
   flex-wrap: wrap;
 }
 
-.breadcrumbs-item {
-  min-width: 13px;
-  min-height: 15px;
-}
-
 .breadcrumbs-item:not(:last-child) {
   margin-right: 28px;
 }
 
+.breadcrumbs-item:first-child .breadcrumbs-link {
+  padding: 10px 7px;
+}
+
 .breadcrumbs-link {
   display: block;
+  position: relative;
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
+}
+
+.breadcrumbs-link:hover .breadcrumbs-home-icon {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:focus .breadcrumbs-home-icon {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.breadcrumbs-home-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: rgba(255, 255, 255, 1);
 }
 
 /*Секция с фильтрами*/
