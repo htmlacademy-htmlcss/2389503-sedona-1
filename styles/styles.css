@@ -763,19 +763,18 @@ body {
   gap: 20px;
 }
 
+
 .hotel-card-stars {
   flex: 1 50%;
-  background-image: url("../images/stars-4.svg");
-  background-repeat: no-repeat;
-  background-size: 140px 37px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
-.hotel-card-item:nth-child(3) .hotel-card-stars {
-  background-image: url("../images/stars-3.svg");
-}
-
-.hotel-card-item:nth-child(4) .hotel-card-stars {
-  background-image: url("../images/stars-2.svg");
+.hotel-card-star:not(:last-child) {
+  margin-right: 6px;
 }
 
 .hotel-card-rank {
