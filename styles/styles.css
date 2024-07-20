@@ -880,7 +880,12 @@ body {
 .footer-social-item {
   width: 48px;
   height: 40px;
+}
+
+.footer-social-link {
   position: relative;
+  padding: 20px 24px;
+  background-color: inherit;
 }
 
 .footer-social-icon {
