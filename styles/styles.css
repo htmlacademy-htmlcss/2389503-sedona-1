@@ -64,9 +64,29 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: #615048;
+}
+
+.btn:focus {
+  background-color: #615048;
+}
+
+.btn:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .btn-blue {
   color: #ffffff;
   background-color: #82B3D3;
+}
+
+.btn-blue:hover {
+  background-color: #68A2CA;
+}
+
+.btn-blue:focus {
+  background-color: #68A2CA;
 }
 
 .btn-green {
@@ -74,9 +94,34 @@ body {
   background-color: #7DB54F;
 }
 
+.btn-green:hover {
+  background-color: #6C9E42;
+}
+
+.btn-green:focus {
+  background-color: #6C9E42;
+}
+
 .btn-transparent {
   color: #ffffff;
   background-color: transparent;
+}
+
+.btn-transparent:hover {
+  background-color: inherit;
+  opacity: 60%;
+}
+
+.btn-transparent:focus {
+  background-color: inherit;
+  outline: 3px solid #83b3d3;
+  outline-offset: -3px;
+  border-radius: 4px;
+}
+
+.btn-transparent:active {
+  background-color: inherit;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 /*Шапка*/
@@ -937,6 +982,11 @@ body {
 }
 
 .footer-social-link {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
   position: relative;
   padding: 20px 24px;
   background-color: inherit;
