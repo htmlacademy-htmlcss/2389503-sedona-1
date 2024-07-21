@@ -1032,6 +1032,18 @@ body {
   text-transform: uppercase;
 }
 
+.footer-contacts-address-phone:hover {
+  color: #756157;
+}
+
+.footer-contacts-address-phone:focus {
+  color: #756157;
+}
+
+.footer-contacts-address-phone:active {
+  color: #7561574d;
+}
+
 .htmlacademy-link {
   width: 115px;
 }
