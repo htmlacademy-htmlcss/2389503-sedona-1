@@ -959,6 +959,8 @@ body {
 .page-footer-container {
   width: 1060px;
   margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1046,5 +1048,6 @@ body {
 }
 
 .htmlacademy-link {
-  position: relative;
+  width: 115px;
+  height: 33px;
 }
