@@ -793,6 +793,10 @@ body {
   margin-right: 8px;
 }
 
+.cards-view-button-active {
+  border-color: #000000;
+}
+
 /*Список карточек*/
 .hotel-card-list {
   width: 1060px;
