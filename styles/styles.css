@@ -70,6 +70,7 @@ body {
 
 .btn:focus {
   background-color: #615048;
+  outline: none;
 }
 
 .btn:active {
@@ -114,8 +115,7 @@ body {
 
 .btn-transparent:focus {
   background-color: inherit;
-  outline: 3px solid #83b3d3;
-  outline-offset: -3px;
+  box-shadow: inset 0 0 0 3px #83b3d3;
   border-radius: 4px;
 }
 
@@ -206,8 +206,6 @@ body {
   border-radius: 4px;
 }
 
-
-
 .number-favorites {
   width: 20px;
   height: 20px;
@@ -222,7 +220,7 @@ body {
   line-height: 10px;
   font-weight: 400;
   color: #ffffff;
-  background-color: #7DB54F;
+  background-color: #7dB54f;
 }
 
 /*Основное содержимое страницы*/
@@ -620,12 +618,29 @@ body {
   font-weight: 400;
 }
 
+.breadcrumbs-link:hover {
+  color: #ffffff99;
+}
+
+.breadcrumbs-link:focus {
+  color: #ffffff;
+  outline: none;
+}
+
+.breadcrumbs-link:active {
+  color: #ffffff4d;
+}
+
 .breadcrumbs-link:hover .breadcrumbs-home-icon {
   fill: #ffffff99;
 }
 
 .breadcrumbs-link:focus .breadcrumbs-home-icon {
   fill: #ffffff;
+}
+
+.breadcrumbs-link:active .breadcrumbs-home-icon {
+  fill: #ffffff4d;
 }
 
 .breadcrumbs-home-icon {
@@ -943,20 +958,18 @@ body {
 
 .pagination-link:hover {
   background-color: #68a2Ca;
-  outline: 1px solid #82b3d3;
-  outline-offset: -1px;
+  box-shadow: inset 0 0 0 1px #82b3d3;
 }
 
 .pagination-link:focus {
   background-color: #68a2Ca;
-  outline: 1px solid #82b3d3;
-  outline-offset: -1px;
+  box-shadow: inset 0 0 0 1px #82b3d3;
+  outline: none;
 }
 
 .pagination-link:active {
   color: #FFFFFF4d;
   background-color: #82b3d3;
-  outline: none;
 }
 
 .pagination-link.pagination-current {
@@ -967,7 +980,7 @@ body {
 .pagination-current:hover {
   color: #000000;
   background-color: #f2f2f2;
-  outline: none;
+  box-shadow: none;
 }
 
 .pagination-current:focus {
@@ -1044,6 +1057,10 @@ body {
   fill: #83b3d3;
 }
 
+.footer-social-link:focus {
+  outline: none;
+}
+
 .footer-social-link:hover .footer-social-icon {
   fill: #68a2Ca;
 }
@@ -1080,6 +1097,7 @@ body {
 
 .footer-contacts-address-phone:focus {
   color: #756157;
+  outline: none;
 }
 
 .footer-contacts-address-phone:active {
@@ -1089,6 +1107,10 @@ body {
 .htmlacademy-link {
   width: 115px;
   height: 33px;
+}
+
+.htmlacademy-link:focus {
+  outline: none;
 }
 
 .htmlacademy-link:hover .htmlacademy-logo {
