@@ -602,13 +602,18 @@ body {
   margin-right: 28px;
 }
 
-.breadcrumbs-item:first-child .breadcrumbs-link {
-  padding: 10px 7px;
+.breadcrumbs-item-home {
+  width: 13px;
+  height: 15px;
+}
+
+.breadcrumbs-item-home .breadcrumbs-link {
+  width: 100%;
+  height: 100%;
 }
 
 .breadcrumbs-link {
   display: block;
-  position: relative;
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
@@ -625,12 +630,6 @@ body {
 }
 
 .breadcrumbs-home-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
   fill: #ffffff;
 }
 
@@ -761,9 +760,20 @@ body {
   border-radius: 4px;
 }
 
-.cards-view-button-active {
+.cards-view-button:hover {
   border-color: #000000;
 }
+
+.cards-view-button:focus {
+  border-color: #68a2Ca;
+  outline: none;
+}
+
+.cards-view-button:active {
+  border-color: #000000;
+}
+
+
 
 .cards-view-item:not(:last-child) {
   margin-right: 8px;
