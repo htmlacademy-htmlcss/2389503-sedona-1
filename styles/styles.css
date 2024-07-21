@@ -361,6 +361,12 @@ body {
   border-bottom: 2px solid #ffffff4d;
 }
 
+.advantages-item-square .advantages-item-heading::after,
+.advantages-item-road .advantages-item-heading::after,
+.advantages-item-tourists .advantages-item-heading::after {
+  border-color: #0000004d;
+}
+
 .advantages-item p {
   margin: 0;
   font-size: 18px;
