@@ -1003,14 +1003,14 @@ body {
 }
 
 .footer-social-link:hover .footer-social-icon {
-  fill: #68A2CA;
+  fill: #68a2Ca;
 }
 
 .footer-social-link:focus .footer-social-icon {
-  fill: #68A2CA;
+  fill: #68a2Ca;
 }
 
-.footer-social-link:focus .footer-social-icon {
+.footer-social-link:active .footer-social-icon {
   fill: #68a2Ca4d;
 }
 
