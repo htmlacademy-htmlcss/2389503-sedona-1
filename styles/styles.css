@@ -1010,6 +1010,10 @@ body {
   fill: #68A2CA;
 }
 
+.footer-social-link:focus .footer-social-icon {
+  fill: #68a2Ca4d;
+}
+
 .footer-contacts {
   width: 331px;
 }
