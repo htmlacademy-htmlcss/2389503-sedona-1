@@ -73,7 +73,7 @@ body {
 }
 
 .btn:active {
-  color: rgba(255, 255, 255, 0.3);
+  color: #ffffff4d;
 }
 
 .btn-blue {
@@ -121,7 +121,7 @@ body {
 
 .btn-transparent:active {
   background-color: inherit;
-  color: rgba(255, 255, 255, 0.3);
+  color: #ffffff4d;
 }
 
 /*Шапка*/
@@ -303,7 +303,7 @@ body {
   align-items: center;
   text-align: center;
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .advantages-item.advantages-item-full {
@@ -321,12 +321,12 @@ body {
 
 .advantages-item-square,
 .advantages-item-tourists {
-  background-color: rgba(131, 179, 211, 0.12);
+  background-color: #83b3d31f;
   color: #333333;
 }
 
 .advantages-item-road {
-  background-color: rgba(131, 179, 211, 0.2);
+  background-color: #83b3d333;
   color: #333333;
 }
 
@@ -405,7 +405,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(131, 179, 211, 0.12);
+  background-color: #83b3d31f;
 }
 
 .features-item-text-container {
@@ -617,11 +617,11 @@ body {
 }
 
 .breadcrumbs-link:hover .breadcrumbs-home-icon {
-  fill: rgba(255, 255, 255, 0.6);
+  fill: #ffffff99;
 }
 
 .breadcrumbs-link:focus .breadcrumbs-home-icon {
-  fill: rgba(255, 255, 255, 1);
+  fill: #ffffff;
 }
 
 .breadcrumbs-home-icon {
@@ -631,7 +631,7 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: rgba(255, 255, 255, 1);
+  fill: #ffffff;
 }
 
 /*Секция с фильтрами*/
