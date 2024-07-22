@@ -305,7 +305,6 @@ body {
 }
 
 /* Секция с преимуществами */
-
 .advantages {
  background-color: #ffffff;
 }
@@ -438,7 +437,6 @@ body {
   padding-bottom: 64px;
 }
 
-
 .features-heading {
   width: 505px;
   margin: 0 auto;
@@ -538,7 +536,6 @@ body {
 }
 
 /*Секция с поиском гостиницы */
-
 .hotel-search {
   background-color: #ffffff;
   text-align: center;
@@ -576,7 +573,6 @@ body {
 }
 
 /* Секция подписки на рассылку */
-
 .subscribe {
   background-color:#82B3D3;
   background-image: url("../images/subscribe-background.jpg");
@@ -631,6 +627,7 @@ body {
   font-size: 20px;
   line-height: 36px;
 }
+
 /* контейнер фильтр блока с общим фоновым изображением */
 .filter-container {
   padding-top: 35px;
@@ -647,6 +644,7 @@ body {
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
 /*Заголовок первого уровня catalog*/
 .catalog-header-title {
   margin: 0;
@@ -655,6 +653,7 @@ body {
   line-height: 78px;
   font-weight: 700;
 }
+
 /*Хлебные крошки*/
 .breadcrumbs {
   margin: 0;
@@ -734,6 +733,7 @@ body {
   width: 1060px;
   margin: 0 auto;
 }
+
 /*форма*/
 .form-filter {
   display: flex;
@@ -998,7 +998,6 @@ body {
   justify-content: space-between;
   gap: 20px;
 }
-
 
 .hotel-card-stars {
   flex: 1 50%;
