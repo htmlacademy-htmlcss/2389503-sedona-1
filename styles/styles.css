@@ -622,24 +622,34 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 21px;
 }
 
-.breadcrumbs-item:not(:last-child) {
+.breadcrumbs-item {
   margin-right: 28px;
+  position: relative;
 }
 
-.breadcrumbs-item-home {
-  width: 13px;
-  height: 15px;
+.breadcrumbs-item::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: -18px;
+  width: 8px;
+  height: 20px;
+  background-image: url("../images/breadcrumbs.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 20px;
 }
 
-.breadcrumbs-item-home .breadcrumbs-link {
-  width: 100%;
-  height: 100%;
+.breadcrumbs-item:first-child::before {
+  content: none;
 }
 
 .breadcrumbs-link {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
@@ -673,6 +683,7 @@ body {
 }
 
 .breadcrumbs-home-icon {
+  vertical-align: -2px;
   fill: #ffffff;
 }
 
