@@ -175,6 +175,7 @@ body {
   display: inline-block;
   position: relative;
   padding: 20px 16px;
+  border-radius: 4px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -195,23 +196,53 @@ body {
   background-color: #756257;
 }
 
+.navigation-main .navigation-link:hover {
+  color: #756157;
+}
+
+.navigation-main .navigation-link:focus {
+  box-shadow: inset 0 0 0 2px #756257;
+  outline: none;
+}
+
+.navigation-main .navigation-link:active {
+  color: #7561574d;
+}
+
 /*Навигация пользователя*/
 .navigation-user {
   max-width: 312px;
   margin-right: 0;
 }
 
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
+.navigation-link-search {
   background-image: url("../images/search.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
+.navigation-link-favorites {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
+
+.navigation-link-search:hover,
+.navigation-link-favorites:hover {
+  box-shadow: inset 0 0 0 2px #756157;
+}
+
+.navigation-link-search:focus,
+.navigation-link-favorites:focus {
+  box-shadow: inset 0 0 0 2px #756157;
+  outline: none;
+}
+
+.navigation-link-search:active,
+.navigation-link-favorites:active {
+  box-shadow: inset 0 0 0 2px #7561574d;
+  outline: none;
 }
 
 .navigation-user .navigation-link {
@@ -219,12 +250,12 @@ body {
   min-width: 20px;
   min-height: 20px;
   padding: 22px 12px;
+  border-radius: 4px;
 }
 
 .navigation-user .navigation-button-here {
   padding: 8px 34px;
   margin-left: 20px;
-  border-radius: 4px;
 }
 
 .number-favorites {
