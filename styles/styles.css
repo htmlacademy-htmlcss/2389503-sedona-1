@@ -858,19 +858,19 @@ body {
   display: flex;
 }
 
-.cards-view-list .cards-view-item:nth-child(1) .cards-view-button {
+.cards-view-item:first-child .cards-view-button {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
   background-position: 110% 50%;
 }
 
-.cards-view-list .cards-view-item:nth-child(2) .cards-view-button {
+.cards-view-item:nth-child(2) .cards-view-button {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
-.cards-view-list .cards-view-item:nth-child(3) .cards-view-button {
+.cards-view-item:last-child .cards-view-button {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
   background-position: 7px 50%;
@@ -897,8 +897,6 @@ body {
 .cards-view-button:active {
   border-color: #000000;
 }
-
-
 
 .cards-view-item:not(:last-child) {
   margin-right: 8px;
