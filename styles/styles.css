@@ -1006,15 +1006,24 @@ body {
 
 .hotel-card-stars {
   flex: 1 50%;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
 }
 
-.hotel-card-star:not(:last-child) {
-  margin-right: 6px;
+.hotel-card-stars-4 {
+  background-image: url("../images/stars-4.svg");
+  background-repeat: no-repeat;
+  background-size: 140px 37px;
+}
+
+.hotel-card-stars-3 {
+  background-image: url("../images/stars-3.svg");
+  background-repeat: no-repeat;
+  background-size: 140px 37px;
+}
+
+.hotel-card-stars-2 {
+  background-image: url("../images/stars-2.svg");
+  background-repeat: no-repeat;
+  background-size: 140px 37px;
 }
 
 .hotel-card-rank {
