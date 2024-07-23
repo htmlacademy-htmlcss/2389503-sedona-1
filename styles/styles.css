@@ -138,6 +138,7 @@ body {
 .page-header {
   background-color: #ffffff;
   color:#000000;
+  z-index: 100;
 }
 
 /*Логотип CityOfSedona(города Седона)*/
@@ -287,6 +288,7 @@ body {
 
 /*Hero*/
 .hero {
+  position: relative;
   padding-top: 51px;
   padding-bottom: 82px;
   color:#000000;
@@ -302,8 +304,11 @@ body {
   margin: 0 auto;
 }
 
-.divider {
-  background-color: #ffffff;
+.hero-divider {
+  width: 100%;
+  min-height: 57px;
+  position: absolute;
+  bottom: 0;
   background-image: url("../images/white-insertion.svg");
   background-repeat: no-repeat;
   background-size: 1200px 57px;
