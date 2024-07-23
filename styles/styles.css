@@ -136,10 +136,8 @@ body {
 
 /*Шапка*/
 .page-header {
-  background-color: transparent;
+  background-color: #ffffff;
   color:#000000;
-  margin-bottom: -6px;
-  z-index: 100;
 }
 
 /*Логотип CityOfSedona(города Седона)*/
