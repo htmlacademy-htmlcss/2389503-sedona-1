@@ -847,9 +847,10 @@ body {
 }
 
 .select-control {
-  width: 292px;
+  min-width: 292px;
   margin-right: 70px;
   padding: 12px 18px;
+  padding-right: 40px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   font-family: inherit;
@@ -857,6 +858,34 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  appearance: none;
+  background-image: url("../images/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 21px center;
+  background-size: 12px 7px;
+}
+
+.select-control:hover {
+  border: 2px solid #68a2ca;
+}
+
+.select-control:focus {
+  border: 2px solid #68a2ca;
+  outline: none;
+}
+
+.select-control:active {
+  border: 2px solid #3f5e72;
+}
+
+.select-control:disabled {
+  color: #0000004d;
+  border: 2px solid #0000004d;
+}
+
+.select-control:disabled:hover {
+  color: #0000004d;
+  border: 2px solid #0000004d;
 }
 
 /*Кнопки раскладки списка карточек*/
