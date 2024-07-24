@@ -84,7 +84,7 @@ body {
 .btn:disabled:hover {
   background-color: #e5e5e5;
   outline: none;
-  cursor: default;
+  cursor: not-allowed;
 }
 
 .btn-blue {
@@ -883,6 +883,7 @@ body {
 .select-control:disabled:hover {
   color: #0000004d;
   border: 2px solid #0000004d;
+  cursor: not-allowed;
 }
 
 /*Кнопки раскладки списка карточек*/
