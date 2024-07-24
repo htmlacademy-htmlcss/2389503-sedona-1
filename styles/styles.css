@@ -699,6 +699,7 @@ body {
 
 .breadcrumbs-link {
   display: inline-block;
+  box-sizing: border-box;
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
@@ -718,21 +719,14 @@ body {
   color: #ffffff4d;
 }
 
-.breadcrumbs-link:hover .breadcrumbs-home-icon {
-  fill: #ffffff99;
-}
-
-.breadcrumbs-link:focus .breadcrumbs-home-icon {
-  fill: #ffffff;
-}
-
-.breadcrumbs-link:active .breadcrumbs-home-icon {
-  fill: #ffffff4d;
-}
-
-.breadcrumbs-home-icon {
-  vertical-align: -2px;
-  fill: #ffffff;
+.breadcrumbs-link-home {
+  display: block;
+  min-width: 13px;
+  min-height: 15px;
+  background-image: url("../images/home.svg");
+  background-repeat: no-repeat;
+  background-size: 13px 15px;
+  background-position: center;
 }
 
 /*Секция с фильтрами*/
