@@ -71,7 +71,6 @@ body {
 
 .btn:focus {
   background-color: #615048;
-  outline: none;
 }
 
 .btn:active {
@@ -126,7 +125,7 @@ body {
 
 .btn-transparent:focus {
   background-color: inherit;
-  box-shadow: inset 0 0 0 3px #83b3d3;
+  outline: 3px solid #83b3d3;
   border-radius: 4px;
 }
 
@@ -208,8 +207,7 @@ body {
 }
 
 .navigation-main .navigation-link:focus {
-  box-shadow: inset 0 0 0 2px #756257;
-  outline: none;
+  outline: 2px solid #756257;
 }
 
 .navigation-main .navigation-link:active {
@@ -242,8 +240,7 @@ body {
 
 .navigation-link-search:focus,
 .navigation-link-favorites:focus {
-  box-shadow: inset 0 0 0 2px #756157;
-  outline: none;
+  outline: 2px solid #756157;
 }
 
 .navigation-link-search:active,
@@ -317,14 +314,14 @@ body {
 
 /* Секция с преимуществами */
 .advantages {
- background-color: #ffffff;
+  padding-top: 69px;
+  background-color: #ffffff;
 }
 
 .advantages-text-container {
   width: 651px;
   margin: 0 auto;
   margin-bottom: 21px;
-  padding-top: 69px;
   padding-bottom: 69px;
 }
 
@@ -715,7 +712,6 @@ body {
 
 .breadcrumbs-link:focus {
   color: #ffffff;
-  outline: none;
 }
 
 .breadcrumbs-link:active {
@@ -1125,7 +1121,7 @@ body {
 .pagination-link:focus {
   background-color: #68a2Ca;
   box-shadow: inset 0 0 0 1px #82b3d3;
-  outline: none;
+  outline: 1px solid #82b3d3;
 }
 
 .pagination-link:active {
@@ -1147,7 +1143,6 @@ body {
 .pagination-current:focus {
   color: #000000;
   background-color: #f2f2f2;
-  outline: none;
 }
 
 /*Секция подписки на рассылку catalog*/
@@ -1218,10 +1213,6 @@ body {
   fill: #83b3d3;
 }
 
-.footer-social-link:focus {
-  outline: none;
-}
-
 .footer-social-link:hover .footer-social-icon {
   fill: #68a2Ca;
 }
@@ -1258,7 +1249,6 @@ body {
 
 .footer-contacts-address-phone:focus {
   color: #756157;
-  outline: none;
 }
 
 .footer-contacts-address-phone:active {
@@ -1268,10 +1258,6 @@ body {
 .htmlacademy-link {
   width: 115px;
   height: 33px;
-}
-
-.htmlacademy-link:focus {
-  outline: none;
 }
 
 .htmlacademy-link:hover .htmlacademy-logo {
