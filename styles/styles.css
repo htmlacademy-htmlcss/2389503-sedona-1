@@ -149,7 +149,6 @@ body {
 /*Логотип CityOfSedona(города Седона)*/
 .page-header-logo {
   display: block;
-  object-fit: contain
 }
 
 /*Основная навигация*/
