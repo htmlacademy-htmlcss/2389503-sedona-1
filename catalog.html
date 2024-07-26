@@ -123,22 +123,25 @@
               <div class="form-filter-column">
                 <fieldset class="form-filter-group">
                   <legend class="form-filter-title">Стоимость, &#8381;:</legend>
-                  <ul class="price-input-list">
-                    <li class="price-input-item">
-                      <label class="visually-hidden" for="min-number">Минимальная стоимость</label>
-                      <input class="min-input" type="number" id="min-number" placeholder="от" min="0" max="8999" step="1">
-                    </li>
-                    <li class="price-input-item">
-                      <label class="visually-hidden" for="max-number">Максимальная стоимость</label>
-                      <input class="max-imput" type="number" id="max-number" placeholder="до" min="1" max="9000" step="1">
-                    </li>
-                  </ul>
-                  <div class="slider-wrapper">
-                    <div class="price-slider"></div>
+                  <div class="range-wrapper-inputs">
+                    <label class="catalog-filter-label">
+                      <input class="range-input" type="number" name="min-price" value="0">
+                    </label>
+                    <label class="catalog-filter-label">
+                      <input type="number" name="max-price" value="9000">
+                    </label>
                   </div>
-                  <div class="range-input">
-                    <input class="min-range" type="range" min="0" max="12000" value="0" step="1">
-                    <input class="max-range" type="range" min="0" max="12000" value="9000" step="1">
+                  <div class="range">
+                    <div class="range-scale">
+                      <div class="range-bar">
+                        <button class="range-toggle toggle-min">
+                          <span class="visually-hidden">Изменить минимальную цену</span>
+                        </button>
+                        <button class="range-toggle toggle-max">
+                          <span class="visually-hidden">Изменить максимальную цену</span>
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </fieldset>
                 <p class="form-filter-buttons-container">
