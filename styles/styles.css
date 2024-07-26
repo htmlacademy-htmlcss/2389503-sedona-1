@@ -775,18 +775,12 @@ body {
   font-weight: 400;
 }
 
-.price-input-list {
-  margin: 0;
-  padding: 0;
-}
-
-.min-input,
-.max-imput {
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #000000;
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-top: 48px;
+  background-color: #ffffff;
+  opacity: 30%;
 }
 
 .form-filter-buttons-container {
