@@ -647,7 +647,7 @@ body {
   padding-bottom: 70px;
   background-image: url("../images/filter-background.jpg");
   background-repeat: no-repeat;
-  background-size: 1200px 408px;
+  background-size: 1200px 412px;
   background-color:#82B3D3;
   color: #ffffff;
 }
@@ -839,6 +839,7 @@ body {
   font-weight: 700;
   text-align: start;
   border: none;
+  background-color: #f2f2f2;
 }
 
 .range-input-min {
@@ -855,6 +856,21 @@ body {
 .range-input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+.range-input:hover {
+  background-color: #e6e6e6;
+}
+
+.range-input:focus {
+  outline: 3px solid #83b3d3;
+  background-color: #e6e6e6;
+}
+
+.range-input:active {
+  background-color: #f2f2f2;
+  box-shadow: inset 0 0 0 2px #000000;
+  outline: none;
 }
 
 .form-filter-buttons-container {
