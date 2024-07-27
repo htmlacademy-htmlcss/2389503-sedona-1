@@ -773,6 +773,22 @@ body {
 }
 
 .control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control-mark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.control-label {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
