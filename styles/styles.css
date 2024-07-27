@@ -811,6 +811,16 @@ body {
   outline: 3px solid #83b3d3;
 }
 
+.toggle-min {
+  left: 0;
+  top: -8px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0;
+}
+
 .form-filter-buttons-container {
   min-width: 191px;
   margin-top: 0;
