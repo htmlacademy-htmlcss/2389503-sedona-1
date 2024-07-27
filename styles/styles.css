@@ -800,6 +800,18 @@ body {
   opacity: 30%;
 }
 
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  content: "";
+  width: 12px;
+  height: 10px;
+  background-image: url("../images/checkbox-tick.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 10px;
+}
+
 
 .control-label {
   font-size: 18px;
