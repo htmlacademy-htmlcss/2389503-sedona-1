@@ -776,6 +776,7 @@ body {
   margin-bottom: 16px;
 }
 
+/* Control */
 .control {
   position: relative;
   display: block;
@@ -785,6 +786,7 @@ body {
   font-weight: 400;
 }
 
+/* Mark */
 .control-mark {
   position: absolute;
   top: 2px;
@@ -819,10 +821,23 @@ body {
   background-size: 12px 10px;
 }
 
+/* Radio */
 .control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
 
+.control-input[type="radio"]:checked + .control-mark::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3f5e72;
+}
+
+/* Range-slider */
 .range-scale {
   position: relative;
   height: 4px;
