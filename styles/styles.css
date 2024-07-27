@@ -779,8 +779,14 @@ body {
   position: relative;
   height: 4px;
   margin-top: 48px;
+  background-color: #ffffff3d;
+
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
   background-color: #ffffff;
-  opacity: 30%;
 }
 
 .form-filter-buttons-container {
