@@ -819,6 +819,10 @@ body {
   background-size: 12px 10px;
 }
 
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
 .range-scale {
   position: relative;
   height: 4px;
