@@ -772,15 +772,22 @@ body {
   list-style-type: none;
 }
 
+.form-filter-item:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
 .control {
   position: relative;
   display: block;
   padding-left: 36px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
 }
 
 .control-mark {
   position: absolute;
-  top: 3px;
+  top: 2px;
   left: 0;
   width: 20px;
   height: 20px;
@@ -810,13 +817,6 @@ body {
   background-image: url("../images/checkbox-tick.svg");
   background-repeat: no-repeat;
   background-size: 12px 10px;
-}
-
-
-.control-label {
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: 400;
 }
 
 .range-scale {
