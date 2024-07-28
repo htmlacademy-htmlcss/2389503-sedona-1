@@ -1462,3 +1462,13 @@ body {
   background-position: center;
   cursor: pointer;
 }
+
+.modal-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 64px;
+  color: #000000;
+}
