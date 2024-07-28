@@ -202,6 +202,35 @@
         </button>
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="form-search" action="https://echo.htmlacademy.ru/" method="">
+            <p class="field-group check-in-date">
+              <label for="check-in">Дата заезда:</label>
+              <input class="field form-search-field" type="text" id="check-in" value="27 апреля 2020">
+            </p>
+            <p class="field-annotation">Мы не можем отправить вас в прошлое.</p>
+            <p class="field-group check-out-date">
+              <label for="check-out">Дата выезда:</label>
+              <input class="field form-search-field" type="text" id="check-out" value="1 сентября 2023">
+            </p>
+            <p class="field-annotation">На эти даты есть свободные номера. Пока есть.</p>
+            <div class="field-container">
+              <label for="adult">Взрослые:</label>
+              <div class="field-buttons-container">
+                <button class="button-minus" type="button"></button>
+                <input class="field form-search-field-guests" type="number" id="adult">
+                <button class="button-plus" type="buttom"></button>
+              </div>
+            </div>
+            <div class="field-container">
+              <label for="kids">Дети:</label>
+              <div class="field-buttons-container">
+                <button class="button-minus"></button>
+                <input class="field form-search-field-guests" type="number" id="kids">
+                <button class="button-plus" type="buttom"></button>
+              </div>
+            </div>
+            <button class="button search-submit" type="submit">Найти</button>
+          </form>
         </section>
       </div>
     </div>
