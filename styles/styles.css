@@ -1433,3 +1433,12 @@ body {
   background-color: #f2f2f2cc;
   z-index: 20;
 }
+
+.modal {
+  position: relative;
+  margin: auto;
+  margin-top: 396px;
+  padding: 64px 70px;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
