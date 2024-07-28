@@ -1442,3 +1442,7 @@ body {
   border-radius: 30px;
   background-color: #ffffff;
 }
+
+.modal-search {
+  width: 717px;
+}
