@@ -1693,6 +1693,15 @@ body {
   color: #ffffff4d;
 }
 
+/* Tooltip */
 .tooltip {
 
+}
+
+.tooltip-toggle {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  display: block;
 }
