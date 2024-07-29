@@ -1476,6 +1476,8 @@ body {
   padding: 64px 70px;
   border-radius: 30px;
   background-color: #ffffff;
+  box-shadow: 0 25px 50px 0 #00000026;
+
 }
 
 .modal-search {
@@ -1715,4 +1717,18 @@ body {
   background-color: #83b3d3;
   border-radius: 50%;
   display: block;
+}
+
+.tooltip-text {
+  display: block;
+  width: 256px;
+  padding: 15px 18px 18px 22px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px 0 #0000004d;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: none;
 }
