@@ -890,7 +890,7 @@ body {
   right: 0;
 }
 
-.range-wrapper-inputs {
+.range-inputs-wrapper {
   display: flex;
   gap: 2px;
 }
@@ -1508,6 +1508,25 @@ body {
   line-height: 24px;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.form-label-icon {
+  position: relative;
+  padding-right: 16px;
+}
+
+.info {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  background-image: url("../images/info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .form-search-field-date {

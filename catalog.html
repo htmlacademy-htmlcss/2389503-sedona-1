@@ -129,21 +129,22 @@
               <div class="form-filter-column">
                 <fieldset class="form-filter-group">
                   <legend class="form-filter-title">Стоимость, &#8381;:</legend>
-                  <div class="range-wrapper-inputs">
+                  <div class="range-inputs-wrapper">
                     <label class="catalog-filter-label">
-                      <input class="range-input range-input-min" type="number" name="min-price" value="0">
+                      <input class="range-input" type="number" name="min-price" value="0">
+                      <span>от</span>
                     </label>
                     <label class="catalog-filter-label">
-                      <input class="range-input range-input-max" type="number" name="max-price" value="9000">
+                      <input class="range-input" type="number" name="max-price" value="9000">
                     </label>
                   </div>
                   <div class="range">
                     <div class="range-scale">
                       <div class="range-bar" style="width: 226px;">
-                        <button class="range-toggle toggle-min">
+                        <button class="range-toggle toggle-min" type="button">
                           <span class="visually-hidden">Изменить минимальную цену</span>
                         </button>
-                        <button class="range-toggle toggle-max">
+                        <button class="range-toggle toggle-max" type="button">
                           <span class="visually-hidden">Изменить максимальную цену</span>
                         </button>
                       </div>
