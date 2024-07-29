@@ -1424,6 +1424,10 @@ body {
 }
 
 .modal-container {
+  display: none;
+}
+
+.modal-container.opened {
   position: fixed;
   top: 0;
   left: 0;
@@ -1437,7 +1441,6 @@ body {
 .modal {
   position: relative;
   margin: auto;
-  /* margin-top: 396px; */
   padding: 64px 70px;
   border-radius: 30px;
   background-color: #ffffff;
