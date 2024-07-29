@@ -1697,7 +1697,8 @@ body {
 
 /* Tooltip */
 .tooltip {
-
+  position: absolute;
+  margin-left: 10px;
 }
 
 .tooltip-toggle {
