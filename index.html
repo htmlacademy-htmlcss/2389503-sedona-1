@@ -203,33 +203,45 @@
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="form-search" action="https://echo.htmlacademy.ru/" method="">
+            <!-- Check-in / check-out -->
             <p class="field-group check-in-date">
-              <label for="check-in">Дата заезда:</label>
-              <input class="field form-search-field" type="text" id="check-in" value="27 апреля 2020">
+              <label class="form-search-label" for="check-in">Дата заезда:</label>
+              <input class="form-search-field-date" type="text" id="check-in" value="27 апреля 2020">
             </p>
-            <p class="field-annotation">Мы не можем отправить вас в прошлое.</p>
+            <!-- <p class="field-error-message">Мы не можем отправить вас в прошлое.</p> -->
             <p class="field-group check-out-date">
-              <label for="check-out">Дата выезда:</label>
-              <input class="field form-search-field" type="text" id="check-out" value="1 сентября 2023">
+              <label class="form-search-label" for="check-out">Дата выезда:</label>
+              <input class="form-search-field-date" type="text" id="check-out" value="1 сентября 2023">
             </p>
-            <p class="field-annotation">На эти даты есть свободные номера. Пока есть.</p>
-            <div class="field-container">
-              <label for="adult">Взрослые:</label>
-              <div class="field-buttons-container">
-                <button class="button-minus" type="button"></button>
-                <input class="field form-search-field-guests" type="number" id="adult">
-                <button class="button-plus" type="buttom"></button>
+            <!-- <p class="field-error-message">На эти даты есть свободные номера. Пока есть.</p> -->
+             <!-- Guests (adults/kids) -->
+             <div class="fields-wrapper">
+              <div class="field-group">
+                <label class="form-search-label" for="adults">Взрослые:</label>
+                <div class="input-container">
+                  <button class="button-input-number" type="button">
+                    <svg class="button-input-number-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9v2h14V9H3Z" fill="#756157" fill-opacity=".3"/></svg>
+                  </button>
+                  <input class="form-search-input-number" type="number" id="adult" value="2">
+                  <button class="button-input-number" type="button">
+                    <svg class="button-input-number-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" fill="#756157" fill-opacity=".3"/></svg>
+                  </button>
+                </div>
               </div>
-            </div>
-            <div class="field-container">
-              <label for="kids">Дети:</label>
-              <div class="field-buttons-container">
-                <button class="button-minus"></button>
-                <input class="field form-search-field-guests" type="number" id="kids">
-                <button class="button-plus" type="buttom"></button>
+              <div class="field-group">
+                <label class="form-search-label" for="kids">Дети:</label>
+                <div class="input-container">
+                  <button class="button-input-number" type="button">
+                    <svg class="button-input-number-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9v2h14V9H3Z" fill="#756157" fill-opacity=".3"/></svg>
+                  </button>
+                  <input class="form-search-input-number" type="number" id="kids" value="2">
+                  <button class="button-input-number" type="button">
+                    <svg class="button-input-number-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" fill="#756157" fill-opacity=".3"/></svg>
+                  </button>
+                </div>
               </div>
-            </div>
-            <button class="button search-submit" type="submit">Найти</button>
+             </div>
+            <button class="btn btn-blue search-submit" type="submit">Найти</button>
           </form>
         </section>
       </div>

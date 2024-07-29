@@ -1437,7 +1437,7 @@ body {
 .modal {
   position: relative;
   margin: auto;
-  margin-top: 396px;
+  /* margin-top: 396px; */
   padding: 64px 70px;
   border-radius: 30px;
   background-color: #ffffff;
@@ -1471,4 +1471,102 @@ body {
   margin: 0;
   margin-bottom: 64px;
   color: #000000;
+}
+
+.field-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.form-search-label {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.form-search-field-date {
+  max-width: 440px;
+  flex-grow: 1;
+  padding: 12px 20px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.fields-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.fields-wrapper .field-group {
+  margin-bottom: 0;
+}
+
+.input-container {
+  display: flex;
+  margin-left: 46px;
+}
+
+.form-search-input-number {
+  width: 31px;
+  padding: 14px 10px;
+  background-color: #f2f2f2;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.form-search-input-number::-webkit-outer-spin-button,
+.form-search-input-number::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.button-input-number {
+  width: 40px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.button-input-number:first-of-type {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.button-input-number:last-of-type {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.button-input-number-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.search-submit {
+  width: 100%;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 10px;
 }
