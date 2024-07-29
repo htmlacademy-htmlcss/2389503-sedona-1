@@ -1513,11 +1513,15 @@ body {
   padding: 12px 20px;
   border: none;
   background-color: #f2f2f2;
+  background-image: url("../images/date.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
   border-radius: 4px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+
 }
 
 .form-search-field-date::placeholder {
