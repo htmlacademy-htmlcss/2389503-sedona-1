@@ -1457,10 +1457,29 @@ body {
   background-color: #f2f2f2;
   border-radius: 50%;
   border: none;
-  background-image: url("../images/cross.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-close-button:focus {
+  outline: 3px solid #83b3d3;
+}
+
+.modal-close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #000000;
+}
+
+.modal-close-button:active .modal-close-icon {
+  fill-opacity: 30%;
 }
 
 .modal-title {
@@ -1499,6 +1518,19 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+}
+
+.form-search-field-date::placeholder {
+  color: #00000099;
+}
+
+ .form-search-field-date:hover {
+  background-color: #e6e6e6;
+}
+
+.form-search-field-date:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
 }
 
 .fields-wrapper {
@@ -1553,6 +1585,10 @@ body {
   border-bottom-right-radius: 4px;
 }
 
+.button-input-number:focus {
+  outline: none;
+}
+
 .button-input-number-icon {
   position: absolute;
   top: 0;
@@ -1560,6 +1596,20 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
+  fill: #7561574d;
+}
+
+.button-input-number:hover .button-input-number-icon {
+  fill: #000000;
+}
+
+.button-input-number:focus .button-input-number-icon {
+  outline: 3px solid #82b3d3;
+  border-radius: 3px;
+}
+
+.button-input-number:active .button-input-number-icon {
+  fill: #7561574d;
 }
 
 .search-submit {
@@ -1569,4 +1619,18 @@ body {
   padding-top: 18px;
   padding-bottom: 18px;
   border-radius: 10px;
+  background-color: #83b3d3;
+}
+
+.search-submit:hover {
+  background-color: #68a2ca;
+}
+
+.search-submit:focus {
+  background-color: #68a2ca;
+}
+
+.search-submit:active {
+  background-color: #68a2ca;
+  color: #ffffff4d;
 }
