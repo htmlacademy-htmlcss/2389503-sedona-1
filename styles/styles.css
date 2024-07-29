@@ -895,9 +895,37 @@ body {
   gap: 2px;
 }
 
+.catalog-filter-label {
+  position: relative;
+}
+
+.catalog-filter-label:first-of-type::after {
+  content: "от";
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0000004d;
+  z-index: 5;
+}
+
+.catalog-filter-label:last-of-type::after {
+  content: "до";
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0000004d;
+  z-index: 5;
+}
+
 .range-input {
   width: 143px;
-  padding: 12px 20px;
+  padding: 12px 60px 12px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
