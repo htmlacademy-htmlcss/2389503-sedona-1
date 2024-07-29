@@ -1328,8 +1328,12 @@ body {
   color: #000000;
 }
 
-.subscribe-catalog .subscribe-field {
+.subscribe-field {
   background-color: #f2f2f2;
+}
+
+.subscribe-field::placeholder {
+  color: #00000099;
 }
 
 /*Подвал сайта*/
