@@ -1699,9 +1699,20 @@ body {
 }
 
 .tooltip-toggle {
+  width: 26px;
+  height: 26px;
   border: none;
   background-color: transparent;
   padding: 0;
   margin: 0;
+  display: block;
+}
+
+.tooltip-icon {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background-color: #83b3d3;
+  border-radius: 50%;
   display: block;
 }
