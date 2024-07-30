@@ -1740,3 +1740,8 @@ body {
   transform: translateX(-50%);
   margin-top: 16px;
 }
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
