@@ -1734,4 +1734,8 @@ body {
   line-height: 20px;
   font-weight: 400;
   text-transform: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 16px;
 }
