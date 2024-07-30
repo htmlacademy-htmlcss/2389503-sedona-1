@@ -1637,6 +1637,7 @@ body {
   border: none;
   cursor: pointer;
   position: relative;
+  background-color: #f2f2f2;
 }
 
 .button-input-number:first-of-type {
