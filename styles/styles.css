@@ -1727,6 +1727,19 @@ body {
   display: block;
 }
 
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  width: 19px;
+  height: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/triangle.svg");
+}
+
 .form-search-label-icon {
   position: relative;
   padding-right: 36px;
