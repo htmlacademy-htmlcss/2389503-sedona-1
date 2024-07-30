@@ -1731,17 +1731,3 @@ body {
   position: relative;
   padding-right: 26px;
 }
-
-.info {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  margin-top: 4px;
-  margin-left: 2px;
-  padding: 0;
-  background-color: transparent;
-  border: none;
-  background-image: url("../images/info.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
