@@ -1544,9 +1544,14 @@ body {
   text-transform: capitalize;
 }
 
-.form-search-field-date {
+.form-search-error-label {
   max-width: 440px;
   flex-grow: 1;
+  position: relative;
+}
+
+.form-search-field-date {
+  width: 100%;
   padding: 12px 20px;
   border: none;
   background-color: #f2f2f2;
@@ -1572,6 +1577,20 @@ body {
 .form-search-field-date:focus {
   background-color: #e6e6e6;
   outline: 3px solid #83b3d3;
+}
+
+.error-message {
+  display: block;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  margin-top: 4px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ff5757;
+  text-transform: none;
 }
 
 .fields-wrapper {
