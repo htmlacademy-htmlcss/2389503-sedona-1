@@ -1544,25 +1544,6 @@ body {
   text-transform: capitalize;
 }
 
-.form-label-icon {
-  position: relative;
-  padding-right: 16px;
-}
-
-.info {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  margin-top: 4px;
-  margin-left: 2px;
-  padding: 0;
-  background-color: transparent;
-  border: none;
-  background-image: url("../images/info.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .form-search-field-date {
   max-width: 440px;
   flex-grow: 1;
@@ -1744,4 +1725,23 @@ body {
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
+}
+
+.form-search-label-icon {
+  position: relative;
+  padding-right: 26px;
+}
+
+.info {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  background-image: url("../images/info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
