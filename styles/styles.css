@@ -82,16 +82,6 @@ body {
   color: #ffffff4d;
 }
 
-.btn:disabled {
-  background-color: #e5e5e5;
-}
-
-.btn:disabled:hover {
-  background-color: #e5e5e5;
-  outline: none;
-  cursor: not-allowed;
-}
-
 .btn-blue {
   color: #ffffff;
   background-color: #82B3D3;
@@ -1596,6 +1586,16 @@ body {
   outline: 2px solid #000000;
 }
 
+.form-search-field-date:disabled {
+  background-color: #e5e5e5;
+}
+
+.form-search-field-date:disabled:hover {
+  background-color: #e5e5e5;
+  outline: none;
+  cursor: not-allowed;
+}
+
 .message {
   display: block;
   position: absolute;
@@ -1667,6 +1667,16 @@ body {
 
 .form-search-input-number:not(:placeholder-shown):hover {
   outline: 1px solid #000000;
+}
+
+.form-search-input-number:disabled {
+  background-color: #e5e5e5;
+}
+
+.form-search-input-number:disabled:hover {
+  background-color: #e5e5e5;
+  outline: none;
+  cursor: not-allowed;
 }
 
 .button-input-number {
