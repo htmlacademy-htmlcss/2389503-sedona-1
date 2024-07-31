@@ -946,6 +946,12 @@ body {
   margin: 0;
 }
 
+.range-input::placeholder {
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+}
+
 .range-input:hover {
   background-color: #e6e6e6;
 }
@@ -955,7 +961,7 @@ body {
   background-color: #e6e6e6;
 }
 
-.range-input:active {
+.range-input:not(:placeholder-shown):hover {
   background-color: #f2f2f2;
   outline: 2px solid #000000;
 }
@@ -1573,8 +1579,7 @@ body {
   outline: 3px solid #83b3d3;
 }
 
-.form-search-field-date:active {
-  background-color: #f2f2f2;
+.form-search-field-date:not(:placeholder-shown):hover {
   outline: 2px solid #000000;
 }
 
