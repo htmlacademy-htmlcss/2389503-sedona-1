@@ -1336,6 +1336,19 @@ body {
   color: #00000099;
 }
 
+.subscribe-field:hover {
+  background-color: #e6e6e6;
+}
+
+.subscribe-field:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.subscribe-field:not(:placeholder-shown):hover {
+  outline: 1px solid #000000;
+}
+
 /*Подвал сайта*/
 .page-footer {
   padding-top: 45px;
