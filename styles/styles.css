@@ -921,24 +921,11 @@ body {
   gap: 2px;
 }
 
-.catalog-filter-label {
+.range-input-label {
   position: relative;
 }
 
-.catalog-filter-label:first-of-type::after {
-  content: "от";
-  position: absolute;
-  top: 12px;
-  right: 20px;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #0000004d;
-  z-index: 5;
-}
-
-.catalog-filter-label:last-of-type::after {
-  content: "до";
+.range-input-text {
   position: absolute;
   top: 12px;
   right: 20px;
