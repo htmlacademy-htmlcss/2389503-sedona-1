@@ -1640,6 +1640,7 @@ body {
   line-height: 20px;
   font-weight: 700;
   text-align: center;
+  z-index: 1;
 }
 
 .form-search-input-number::-webkit-outer-spin-button,
@@ -1656,7 +1657,16 @@ body {
 }
 
 .form-search-input-number:hover {
+  background-color: #e6e6e6;
+}
 
+.form-search-input-number:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.form-search-input-number:not(:placeholder-shown):hover {
+  outline: 1px solid #000000;
 }
 
 .button-input-number {
