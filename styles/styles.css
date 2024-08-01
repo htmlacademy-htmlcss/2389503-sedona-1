@@ -1493,6 +1493,7 @@ body {
 .modal {
   position: relative;
   margin: auto;
+  margin-top: 396px;
   padding: 64px 70px;
   border-radius: 30px;
   background-color: #ffffff;
