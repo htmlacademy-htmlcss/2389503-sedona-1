@@ -1475,6 +1475,7 @@ body {
   fill: #000000;
 }
 
+/*Модальное окно*/
 .modal-container {
   display: none;
 }
