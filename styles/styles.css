@@ -1058,7 +1058,10 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #ffffff;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 21px center;
