@@ -779,7 +779,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-
+  text-transform: capitalize;
 }
 
 .form-filter-list {
