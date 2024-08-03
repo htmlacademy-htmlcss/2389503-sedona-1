@@ -258,8 +258,8 @@ body {
 }
 
 .number-favorites {
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -913,7 +913,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  right: 0;
+  right: -1px;
 }
 
 .range-inputs-wrapper {
