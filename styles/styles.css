@@ -1109,19 +1109,19 @@ body {
 .cards-view-item:first-child .cards-view-button {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
-  background-position: 110% 50%;
+  background-position: 109% 44%;;
 }
 
 .cards-view-item:nth-child(2) .cards-view-button {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 49%;
 }
 
 .cards-view-item:last-child .cards-view-button {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
-  background-position: 7px 50%;
+  background-position: 5px 49%;
 }
 
 .cards-view-button {
