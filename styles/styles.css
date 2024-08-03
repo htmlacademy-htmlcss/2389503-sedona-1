@@ -964,6 +964,10 @@ body {
   margin: 0;
 }
 
+.range-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .range-input::placeholder {
   color: #000000;
   font-size: 18px;
