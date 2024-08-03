@@ -1429,7 +1429,7 @@ body {
 }
 
 .footer-contacts {
-  width: 331px;
+  max-width: 350px;
 }
 
 .footer-contacts-address {
