@@ -1069,8 +1069,8 @@ body {
   background-color: #ffffff;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
-  background-position: right 21px center;
-  background-size: 12px 7px;
+  background-position: right 18px center;
+
 }
 
 .select-control:hover {
