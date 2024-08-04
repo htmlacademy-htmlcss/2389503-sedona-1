@@ -212,8 +212,9 @@ body {
 
 /*Навигация пользователя*/
 .navigation-user {
-  max-width: 312px;
+  max-width: 360px;
   margin-right: 0;
+  justify-content: flex-end;
 }
 
 .navigation-link-search {
@@ -247,6 +248,11 @@ body {
   outline: none;
 }
 
+.navigation-user .navigation-item {
+  min-width: 44px;
+  min-height: 64px;
+}
+
 .navigation-user .navigation-link {
   display: block;
   padding: 32px 22px;
@@ -255,7 +261,7 @@ body {
 
 .navigation-user .navigation-button-here {
   padding: 8px 34px;
-  margin-left: 20px;
+  margin: 14px 0 14px 20px;
 }
 
 .number-favorites {
