@@ -915,6 +915,7 @@ body {
   position: absolute;
   height: 4px;
   background-color: #ffffff;
+  width: 226px;
 }
 
 .range-toggle {
