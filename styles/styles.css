@@ -214,7 +214,15 @@ body {
 .navigation-user {
   width: 360px;
   margin-right: 0;
-  justify-content: flex-end;
+}
+
+.navigation-user .navigation-item {
+  min-width: 44px;
+  min-height: 64px;
+}
+
+.navigation-user .navigation-item:first-of-type {
+  margin-left: auto;
 }
 
 .navigation-link-search {
@@ -246,11 +254,6 @@ body {
 .navigation-link-favorites:active {
   box-shadow: inset 0 0 0 2px #7561574d;
   outline: none;
-}
-
-.navigation-user .navigation-item {
-  min-width: 44px;
-  min-height: 64px;
 }
 
 .navigation-user .navigation-link {
