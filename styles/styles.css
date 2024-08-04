@@ -358,7 +358,6 @@ body {
 }
 
 .advantages-item.advantages-item-full {
-  display: flex;
   flex-basis: 100%;
 }
 
