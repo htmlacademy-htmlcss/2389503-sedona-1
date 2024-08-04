@@ -1223,6 +1223,11 @@ body {
   gap: 20px;
 }
 
+.hotel-card-button {
+  flex-basis: 140px;
+  padding: 8px 18px;
+}
+
 .hotel-card-button-detail {
   padding: 8px 26px;
   border-radius: 4px;
