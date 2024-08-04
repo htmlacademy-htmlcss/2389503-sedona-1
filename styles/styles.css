@@ -1119,28 +1119,30 @@ body {
   cursor: not-allowed;
 }
 
-/*Кнопки раскладки списка карточек*/
+/*Кнопки сортировки вида карточек*/
 .cards-view-list {
   width: 160px;
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.cards-view-item:first-child .cards-view-button {
+.view-button-grid {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
   background-position: 109% 44%;;
 }
 
-.cards-view-item:nth-child(2) .cards-view-button {
+.view-button-single {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
   background-position: 50% 49%;
 }
 
-.cards-view-item:last-child .cards-view-button {
+.view-button-list {
   background-image: url("../images/view-cards-sprites.png");
   background-repeat: no-repeat;
   background-position: 5px 49%;
@@ -1167,11 +1169,7 @@ body {
   border-color: #000000;
 }
 
-.cards-view-item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.cards-view-button-active {
+.cards-view-button-current {
   border-color: #000000;
 }
 
