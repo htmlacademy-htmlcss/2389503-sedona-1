@@ -1303,8 +1303,8 @@ body {
 }
 
 .pagination-item-ellipsis {
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
 }
 
 .pagination-item span{
@@ -1312,8 +1312,8 @@ body {
 }
 
 .pagination-link {
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
   padding: 12px 15px;
   border-radius: 4px;
   font-size: 20px;
