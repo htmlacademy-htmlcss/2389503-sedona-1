@@ -272,7 +272,7 @@ body {
   border-radius: 4px;
 }
 
-.navigation-user .navigation-button-here {
+.navigation-user .navigation-btn-here {
   padding: 8px 34px;
   margin: 14px 0 14px 20px;
 }
@@ -407,7 +407,7 @@ body {
   flex-grow: 1;
 }
 
-.advantages-item-text-container {
+.advantages-item-container {
   max-width: 230px;
 }
 
@@ -495,7 +495,7 @@ body {
   background-color: #83b3d31f;
 }
 
-.features-item-text-container {
+.features-item-container {
   max-width: 230px;
 }
 
@@ -545,7 +545,7 @@ body {
   background-position: center;
 }
 
-.features-item-text-container p {
+.features-item-container p {
   margin: 0;
   font-size: 18px;
   line-height: 21px;
@@ -563,7 +563,7 @@ body {
   text-align: center;
 }
 
-.hotel-search-text-container {
+.hotel-search-container {
   max-width: 592px;
   margin: 0 auto;
   padding-top: 96px;
@@ -579,7 +579,7 @@ body {
   text-transform: uppercase;
 }
 
-.hotel-search-text-container p {
+.hotel-search-container p {
   margin: 0;
   margin-bottom: 54px;
   font-weight: 400;
@@ -604,7 +604,7 @@ body {
   text-align: center;
 }
 
-.subscribe-text-container {
+.subscribe-container {
   max-width: 684px;
   margin: 0 auto;
   padding-top: 96px;
@@ -620,7 +620,7 @@ body {
   text-transform: uppercase;
 }
 
-.subscribe-text-container p {
+.subscribe-container p {
   margin: 0;
   margin-bottom: 54px;
   font-weight: 400;
@@ -673,7 +673,7 @@ body {
   cursor: not-allowed;
 }
 
-.subscribe-button {
+.subscribe-btn {
   padding: 8px 50px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -1464,7 +1464,7 @@ body {
 }
 
 /*Телефон*/
-.footer-contacts-address-phone {
+.footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -1473,15 +1473,15 @@ body {
   text-transform: uppercase;
 }
 
-.footer-contacts-address-phone:hover {
+.footer-contacts-phone:hover {
   color: #756157;
 }
 
-.footer-contacts-address-phone:focus {
+.footer-contacts-phone:focus {
   color: #756157;
 }
 
-.footer-contacts-address-phone:active {
+.footer-contacts-phone:active {
   color: #7561574d;
 }
 
