@@ -1226,20 +1226,6 @@ body {
 .hotel-card-button {
   flex-basis: 140px;
   padding: 8px 18px;
-}
-
-.hotel-card-button-detail {
-  padding: 8px 26px;
-  border-radius: 4px;
-}
-
-.hotel-card-button-add-to-favorites {
-  padding: 8px 20px;
-  border-radius: 4px;
-}
-
-.hotel-card-button-in-favorites {
-  padding: 8px 18px;
   border-radius: 4px;
 }
 
