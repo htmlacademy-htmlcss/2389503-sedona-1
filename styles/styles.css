@@ -1693,6 +1693,10 @@ body {
   margin: 0;
 }
 
+.form-search-input-number[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .form-search-input-number::placeholder {
   color: #000000;
   font-size: 18px;
