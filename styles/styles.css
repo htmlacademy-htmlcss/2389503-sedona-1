@@ -855,7 +855,8 @@ img {
   opacity: 60%;
 }
 
-.control:focus .control-mark {
+.control-input:focus ~ .control-mark,
+.control-input:active ~ .control-mark {
   outline: 3px solid #83b3d3;
 }
 
