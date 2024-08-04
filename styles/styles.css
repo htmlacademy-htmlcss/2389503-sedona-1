@@ -55,7 +55,8 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   overflow: hidden;
   white-space: nowrap;
 }
@@ -999,7 +1000,8 @@ img {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1104,7 +1106,6 @@ img {
   font-weight: 400;
   color: #333333;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
   background-color: #ffffff;
   background-image: url("../images/select-arrow.svg");
@@ -1703,7 +1704,8 @@ img {
 
 .form-search-input-number::-webkit-outer-spin-button,
 .form-search-input-number::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
