@@ -1564,6 +1564,7 @@ body {
 }
 
 .modal-title {
+  max-width: 460px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -1582,6 +1583,7 @@ body {
 }
 
 .form-search-label {
+  max-width: 200px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1659,6 +1661,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
   margin-bottom: 48px;
 }
 
@@ -1832,6 +1835,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   margin-top: 14px;
+  z-index: 1;
 }
 
 .tooltip-toggle:hover + .tooltip-text,
