@@ -83,6 +83,16 @@ body {
   color: #ffffff4d;
 }
 
+.btn:disabled {
+  background-color: #e5e5e5;
+}
+
+.btn:disabled:hover {
+  background-color: #e5e5e5;
+  outline: none;
+  cursor: not-allowed;
+}
+
 .btn-blue {
   color: #ffffff;
   background-color: #82B3D3;
