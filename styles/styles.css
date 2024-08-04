@@ -1274,13 +1274,14 @@ body {
 
 /*Пагинация*/
 .pagination {
-  width: 1060px;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 0;
   padding-top: 39px;
   border-top: 1px solid #e6e6e6;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .pagination-item {
