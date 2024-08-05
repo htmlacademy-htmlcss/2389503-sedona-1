@@ -1775,12 +1775,12 @@ img {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: #7561574d;
+  color: #7561574d;
 }
 
 .minus-plus-button:hover .minus-icon,
 .minus-plus-button:hover .plus-icon {
-  fill: #000000;
+  color: #000000;
 }
 
 .minus-plus-button:focus .minus-icon,
@@ -1791,7 +1791,7 @@ img {
 
 .minus-plus-button:active .minus-icon,
 .minus-plus-button:active .plus-icon {
-  fill: #7561574d;
+  color: #7561574d;
 }
 
 .search-submit {
