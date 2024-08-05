@@ -1597,7 +1597,7 @@ img {
   margin-bottom: 48px;
 }
 
-.form-search-label {
+.date-input-label {
   max-width: 200px;
   font-size: 20px;
   line-height: 24px;
@@ -1611,7 +1611,7 @@ img {
   position: relative;
 }
 
-.form-search-field-date {
+.date-input {
   width: 100%;
   padding: 12px 20px;
   border: none;
@@ -1627,28 +1627,28 @@ img {
 
 }
 
-.form-search-field-date::placeholder {
+.date-input::placeholder {
   color: #00000099;
 }
 
- .form-search-field-date:hover {
+ .date-input:hover {
   background-color: #e6e6e6;
 }
 
-.form-search-field-date:focus {
+.date-input:focus {
   background-color: #e6e6e6;
   outline: 3px solid #83b3d3;
 }
 
-.form-search-field-date:not(:placeholder-shown):hover {
+.date-input:not(:placeholder-shown):hover {
   outline: 2px solid #000000;
 }
 
-.form-search-field-date:disabled {
+.date-input:disabled {
   background-color: #e5e5e5;
 }
 
-.form-search-field-date:disabled:hover {
+.date-input:disabled:hover {
   background-color: #e5e5e5;
   outline: none;
   cursor: not-allowed;
