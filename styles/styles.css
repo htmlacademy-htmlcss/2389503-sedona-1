@@ -1232,7 +1232,7 @@ img {
   color: #000000;
 }
 
-.hotel-card-price {
+.hotel-card-desc {
   margin: 0;
   margin-top: auto;
   display: flex;
@@ -1245,16 +1245,16 @@ img {
   color: #333333;
 }
 
-.hotel-card-price-name {
+.hotel-card-type {
   flex: 1 50%;
 }
 
-.hotel-card-price-value {
+.hotel-card-price {
   flex: 1 50%;
   text-align: end;
 }
 
-.hotel-card-buttons {
+.hotel-card-box {
   margin: 0;
   display: flex;
   justify-content: space-between;
