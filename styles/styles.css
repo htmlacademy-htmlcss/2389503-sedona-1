@@ -1497,19 +1497,19 @@ img {
 }
 
 .htmlacademy-link:hover .htmlacademy-logo {
-  fill: #756157;
+  color: #756157;
 }
 
 .htmlacademy-link:focus .htmlacademy-logo {
-  fill: #756157;
+  color: #756157;
 }
 
 .htmlacademy-link:active .htmlacademy-logo {
-  fill: #7561574d;
+  color: #7561574d;
 }
 
 .htmlacademy-logo {
-  fill: #000000;
+  color: #000000;
 }
 
 /*Модальное окно*/
