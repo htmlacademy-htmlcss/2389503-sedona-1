@@ -278,7 +278,7 @@ img {
   border-radius: 4px;
 }
 
-.navigation-user .navigation-btn-here {
+.navigation-user .button-want-here {
   padding: 8px 34px;
   margin: 14px 0 14px 20px;
 }
@@ -771,20 +771,20 @@ img {
 }
 
 .breadcrumbs-link:hover .breadcrumbs-home-icon {
-  fill: #ffffff99;
+  color: #ffffff99;
 }
 
 .breadcrumbs-link:focus .breadcrumbs-home-icon {
-  fill: #ffffff;
+  color: #ffffff;
 }
 
 .breadcrumbs-link:active .breadcrumbs-home-icon {
-  fill: #ffffff4d;
+  color: #ffffff4d;
 }
 
 .breadcrumbs-home-icon {
   vertical-align: -2px;
-  fill: #ffffff;
+  color: #ffffff;
 }
 
 /*Секция с фильтрами*/
