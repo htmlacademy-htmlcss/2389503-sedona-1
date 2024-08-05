@@ -1571,11 +1571,11 @@ img {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: #000000;
+  color: #000000;
 }
 
 .modal-close-button:active .modal-close-icon {
-  fill-opacity: 30%;
+  color: #0000004d;
 }
 
 .modal-title {
