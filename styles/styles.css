@@ -1094,7 +1094,7 @@ img {
 }
 
 .select-control {
-  max-width: 292px;
+  width: 292px;
   margin-right: 70px;
   padding: 12px 18px;
   padding-right: 40px;
