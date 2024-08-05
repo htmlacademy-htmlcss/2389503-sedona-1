@@ -1795,7 +1795,7 @@ img {
   color: #7561574d;
 }
 
-.search-submit {
+.form-search-submit {
   width: 100%;
   font-size: 20px;
   line-height: 24px;
@@ -1805,15 +1805,15 @@ img {
   background-color: #83b3d3;
 }
 
-.search-submit:hover {
+.form-search-submit:hover {
   background-color: #68a2ca;
 }
 
-.search-submit:focus {
+.form-search-submit:focus {
   background-color: #68a2ca;
 }
 
-.search-submit:active {
+.form-search-submit:active {
   background-color: #68a2ca;
   color: #ffffff4d;
 }
