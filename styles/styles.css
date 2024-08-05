@@ -1846,7 +1846,7 @@ img {
 .tooltip-text {
   display: none;
   width: 256px;
-  padding: 20px 18px 18px 22px;
+  padding: 20px 18px 23px 22px;
   border-radius: 10px;
   box-shadow: 0 15px 30px 0 #0000004d;
   background-color: #333333;
@@ -1859,7 +1859,7 @@ img {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 14px;
+  margin-top: 15px;
   z-index: 1;
 }
 
