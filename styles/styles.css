@@ -1605,7 +1605,7 @@ img {
   text-transform: capitalize;
 }
 
-.form-search-message{
+.date-input-box {
   max-width: 440px;
   flex-grow: 1;
   position: relative;
@@ -1654,7 +1654,7 @@ img {
   cursor: not-allowed;
 }
 
-.message {
+.date-input + span {
   display: block;
   position: absolute;
   bottom: -25px;
@@ -1668,7 +1668,7 @@ img {
   text-transform: none;
 }
 
-.message-error {
+.date-input + .error {
   color: #ff5757;
 }
 
