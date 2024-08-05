@@ -1597,7 +1597,8 @@ img {
   margin-bottom: 48px;
 }
 
-.date-input-label {
+.date-input-label,
+.minus-plus-label {
   max-width: 200px;
   font-size: 20px;
   line-height: 24px;
@@ -1880,7 +1881,7 @@ img {
   background-image: url("../images/triangle.svg");
 }
 
-.form-search-label-icon {
+.tooltip-box {
   position: relative;
   padding-right: 36px;
 }
