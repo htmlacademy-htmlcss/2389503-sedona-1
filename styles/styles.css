@@ -1743,7 +1743,7 @@ img {
   cursor: not-allowed;
 }
 
-.button-input-number {
+.minus-plus-button {
   width: 40px;
   height: 48px;
   padding: 0;
@@ -1753,21 +1753,22 @@ img {
   background-color: #f2f2f2;
 }
 
-.button-input-number:first-of-type {
+.minus-plus-button:first-of-type {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
-.button-input-number:last-of-type {
+.minus-plus-button:last-of-type {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
-.button-input-number:focus {
+.minus-plus-button:focus {
   outline: none;
 }
 
-.button-input-number-icon {
+.minus-icon,
+.plus-icon {
   position: absolute;
   top: 0;
   right: 0;
@@ -1777,16 +1778,19 @@ img {
   fill: #7561574d;
 }
 
-.button-input-number:hover .button-input-number-icon {
+.minus-plus-button:hover .minus-icon,
+.minus-plus-button:hover .plus-icon {
   fill: #000000;
 }
 
-.button-input-number:focus .button-input-number-icon {
+.minus-plus-button:focus .minus-icon,
+.minus-plus-button:focus .plus-icon {
   outline: 3px solid #82b3d3;
   border-radius: 3px;
 }
 
-.button-input-number:active .button-input-number-icon {
+.minus-plus-button:active .minus-icon,
+.minus-plus-button:active .plus-icon {
   fill: #7561574d;
 }
 
