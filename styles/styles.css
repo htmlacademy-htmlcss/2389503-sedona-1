@@ -1446,19 +1446,19 @@ img {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: #83b3d3;
+  color: #83b3d3;
 }
 
 .footer-social-link:hover .footer-social-icon {
-  fill: #68a2Ca;
+  color: #68a2Ca;
 }
 
 .footer-social-link:focus .footer-social-icon {
-  fill: #68a2Ca;
+  color: #68a2Ca;
 }
 
 .footer-social-link:active .footer-social-icon {
-  fill: #68a2Ca4d;
+  color: #68a2Ca4d;
 }
 
 .footer-contacts {
