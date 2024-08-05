@@ -1684,12 +1684,12 @@ img {
   margin-bottom: 0;
 }
 
-.input-minus-plus {
+.minus-plus-box {
   display: flex;
   margin-left: 46px;
 }
 
-.form-search-input-number {
+.minus-plus-input {
   width: 31px;
   padding: 10px 5px;
   background-color: #f2f2f2;
@@ -1702,42 +1702,42 @@ img {
   z-index: 1;
 }
 
-.form-search-input-number::-webkit-outer-spin-button,
-.form-search-input-number::-webkit-inner-spin-button {
+.minus-plus-input::-webkit-outer-spin-button,
+.minus-plus-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
           appearance: none;
   margin: 0;
 }
 
-.form-search-input-number[type="number"] {
+.minus-plus-input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.form-search-input-number::placeholder {
+.minus-plus-input::placeholder {
   color: #000000;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
 }
 
-.form-search-input-number:hover {
+.minus-plus-input:hover {
   background-color: #e6e6e6;
 }
 
-.form-search-input-number:focus {
+.minus-plus-input:focus {
   background-color: #e6e6e6;
   outline: 3px solid #83b3d3;
 }
 
-.form-search-input-number:not(:placeholder-shown):hover {
+.minus-plus-input:not(:placeholder-shown):hover {
   outline: 1px solid #000000;
 }
 
-.form-search-input-number:disabled {
+.minus-plus-input:disabled {
   background-color: #e5e5e5;
 }
 
-.form-search-input-number:disabled:hover {
+.minus-plus-input:disabled:hover {
   background-color: #e5e5e5;
   outline: none;
   cursor: not-allowed;
