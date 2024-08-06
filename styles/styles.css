@@ -1675,8 +1675,7 @@ img {
   color: #333333;
   text-transform: none;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: auto;
 }
 
 .date-input + .error {
