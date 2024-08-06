@@ -190,8 +190,9 @@ img {
 }
 
 .navigation-main .navigation-link {
-  display: inline-block;
+  display: block;
   position: relative;
+  max-width: 130px;
   padding: 20px 16px;
   border-radius: 4px;
   font-size: 20px;
