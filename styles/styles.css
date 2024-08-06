@@ -1692,6 +1692,7 @@ img {
 
 .minus-plus-box {
   display: flex;
+  align-self: flex-start;
   margin-left: 46px;
 }
 
