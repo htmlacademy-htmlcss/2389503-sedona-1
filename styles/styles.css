@@ -286,8 +286,8 @@ img {
 }
 
 .number-favorites {
-  min-width: 20px;
-  min-height: 20px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -300,6 +300,9 @@ img {
   font-weight: 400;
   color: #ffffff;
   background-color: #7dB54f;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /*Основное содержимое страницы*/
