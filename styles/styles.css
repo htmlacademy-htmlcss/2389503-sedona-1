@@ -1601,7 +1601,7 @@ img {
 
 .date-input-label,
 .minus-plus-label {
-  max-width: 200px;
+  max-width: 137px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1612,6 +1612,7 @@ img {
   max-width: 440px;
   flex-grow: 1;
   position: relative;
+  align-self: flex-start;
 }
 
 .date-input {
@@ -1660,15 +1661,15 @@ img {
 .date-input + span {
   display: block;
   position: absolute;
-  bottom: -25px;
+  top: 48px;
   left: 0;
-  margin-top: 4px;
-  padding: 0 20px;
+  padding: 4px 20px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
   text-transform: none;
+  /* overflow: auto; */
 }
 
 .date-input + .error {
@@ -1799,6 +1800,7 @@ img {
 
 .form-search-submit {
   width: 100%;
+  /* min-height: 60px; */
   font-size: 20px;
   line-height: 24px;
   padding-top: 18px;
