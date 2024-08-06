@@ -456,6 +456,10 @@ img {
   font-weight: 400;
 }
 
+.advantages-item-photo {
+  align-self: flex-start;
+}
+
 /*Секция с особенностями*/
 .features {
   background-color: #ffffff;
@@ -596,6 +600,7 @@ img {
 }
 
 .hotel-search-link {
+  max-width: 376px;
   padding: 8px 50px;
   border-radius: 4px;
   font-size: 20px;
@@ -608,7 +613,7 @@ img {
   background-color:#82B3D3;
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
-  background-size: 1200px 415px;
+  background-size: cover;
   color: #ffffff;
   text-align: center;
 }
@@ -621,7 +626,8 @@ img {
 }
 
 .subscribe-heading {
-  margin: 0;
+  max-width: 475px;
+  margin: 0 auto;
   margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
@@ -630,7 +636,8 @@ img {
 }
 
 .subscribe-container p {
-  margin: 0;
+  max-width: 475px;
+  margin: 0 auto;
   margin-bottom: 54px;
   font-weight: 400;
 }
@@ -1413,7 +1420,6 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .footer-social {
@@ -1499,6 +1505,7 @@ img {
 .htmlacademy-link {
   width: 115px;
   height: 33px;
+  margin-top: 3.5px;
 }
 
 .htmlacademy-link:hover .htmlacademy-logo {
