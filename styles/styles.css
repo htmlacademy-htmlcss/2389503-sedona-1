@@ -1659,17 +1659,19 @@ img {
 }
 
 .date-input + span {
-  display: block;
   position: absolute;
   top: 48px;
   left: 0;
+  max-width: 440px;
   padding: 4px 20px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
   text-transform: none;
-  /* overflow: auto; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .date-input + .error {
