@@ -302,7 +302,6 @@ img {
   background-color: #7dB54f;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /*Основное содержимое страницы*/
