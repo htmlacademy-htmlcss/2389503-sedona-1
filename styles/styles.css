@@ -1828,7 +1828,8 @@ img {
 /* Tooltip */
 .tooltip {
   position: absolute;
-  margin-left: 10px;
+  top: 0;
+  right: 0;
   width: 26px;
   height: 26px;
 }
