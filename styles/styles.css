@@ -1681,7 +1681,7 @@ img {
 .fields-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 15px;
   margin-bottom: 48px;
 }
