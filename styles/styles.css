@@ -181,7 +181,6 @@ img {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .navigation-main {
