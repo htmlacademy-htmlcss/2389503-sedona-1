@@ -826,6 +826,7 @@ img {
 }
 
 .form-filter-title {
+  max-width: 150px;
   margin-bottom: 32px;
   padding: 0;
   font-size: 20px;
@@ -835,6 +836,7 @@ img {
 }
 
 .form-filter-list {
+  width: 150px;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -980,6 +982,7 @@ img {
 }
 
 .range-input-text {
+  max-width: 30px;
   position: absolute;
   top: 12px;
   right: 20px;
@@ -987,6 +990,8 @@ img {
   line-height: 24px;
   font-weight: 400;
   color: #0000004d;
+  white-space: nowrap;
+  overflow: auto;
 }
 
 .range-input {
@@ -1054,24 +1059,22 @@ img {
 }
 
 .filter-buttons-box {
-  min-width: 191px;
+  width: 191px;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   gap: 32px;
 }
 
 .form-filter button[type="submit"] {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  margin-top: 32px;
+  padding: 8px 20px;
   border-radius: 4px;
 }
 
 .form-filter button[type="reset"] {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 8px 20px;
   border-radius: 4px;
 }
 
