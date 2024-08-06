@@ -1706,7 +1706,7 @@ img {
   line-height: 20px;
   font-weight: 700;
   text-align: center;
-  z-index: 1;
+  z-index: 5;
 }
 
 .minus-plus-input::-webkit-outer-spin-button,
@@ -1832,6 +1832,7 @@ img {
   right: 0;
   width: 26px;
   height: 26px;
+  z-index: 10;
 }
 
 .tooltip-toggle {
