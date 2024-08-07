@@ -1520,10 +1520,6 @@ img {
 
 /*Модальное окно*/
 .modal-container {
-  display: none;
-}
-
-.modal-container-opened {
   position: fixed;
   top: 0;
   left: 0;
@@ -1534,6 +1530,10 @@ img {
   height: 100%;
   background-color: #f2f2f2cc;
   z-index: 20;
+}
+
+.modal-container-close {
+  display: none;
 }
 
 .modal {
