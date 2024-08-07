@@ -1016,22 +1016,10 @@ img {
   border-bottom-right-radius: 4px;
 }
 
-.range-input::-webkit-outer-spin-button,
-.range-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-          appearance: none;
-  margin: 0;
-}
-
-.range-input[type="number"] {
-  -moz-appearance: textfield;
-}
-
 .range-input::placeholder {
   color: #000000;
   font-size: 18px;
   line-height: 24px;
-  opacity: 1; /*Для корректного отображения в Firefox*/
 }
 
 .range-input:hover {
@@ -1091,13 +1079,14 @@ img {
   margin: 0 auto;
   margin-bottom: 40px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .sort-container-text {
   max-width: 380px;
   margin: 0;
   margin-right: auto;
+  align-self: center;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -1274,6 +1263,7 @@ img {
   margin: 0;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 20px;
 }
 
