@@ -509,13 +509,14 @@ img {
   min-height: 385px;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
   background-color: #83b3d31f;
 }
 
 .features-item-container {
   max-width: 230px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .features-item-heading {
