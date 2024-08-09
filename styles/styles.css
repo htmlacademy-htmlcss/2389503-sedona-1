@@ -416,8 +416,15 @@ img {
   flex-grow: 1;
 }
 
+.advantages-item-full .advantages-item-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .advantages-item-container {
   max-width: 235px;
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
 
 .advantages-item-heading {
