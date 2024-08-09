@@ -629,7 +629,7 @@ img {
 
 /* Секция подписки на рассылку */
 .subscribe {
-  background-color:#82b3d3;
+  background-color:#000000;
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -725,7 +725,7 @@ img {
   background-image: url("../images/filter-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:#82b3d3;
+  background-color:#000000;
   color: #ffffff;
 }
 
