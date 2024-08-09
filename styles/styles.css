@@ -86,7 +86,7 @@ img {
 }
 
 .btn:active {
-  color: #ffffff4d;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .btn:disabled {
@@ -131,8 +131,8 @@ img {
 }
 
 .btn-transparent:hover {
+  color: rgba(255, 255, 255, 0.6);
   background-color: inherit;
-  opacity: 60%;
 }
 
 .btn-transparent:focus {
@@ -142,8 +142,20 @@ img {
 }
 
 .btn-transparent:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: inherit;
-  color: #ffffff4d;
+}
+
+.btn-transparent:disabled {
+  color: rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+}
+
+.btn-transparent:disabled:hover {
+  color: rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+  outline: none;
+  cursor: not-allowed;
 }
 
 /*Шапка*/
@@ -1140,13 +1152,13 @@ img {
 }
 
 .select-control:disabled {
-  color: #0000004d;
-  border: 2px solid #0000004d;
+  color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .select-control:disabled:hover {
-  color: #0000004d;
-  border: 2px solid #0000004d;
+  color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   cursor: not-allowed;
 }
 
