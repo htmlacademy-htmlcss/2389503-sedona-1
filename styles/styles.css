@@ -380,7 +380,6 @@ img {
   min-height: 385px;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
   color: #ffffff;
   background-color: #82b3d3;
@@ -417,14 +416,14 @@ img {
 }
 
 .advantages-item-full .advantages-item-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 102px;
+  padding-bottom: 102px;
 }
 
 .advantages-item-container {
   max-width: 235px;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 
 .advantages-item-heading {
